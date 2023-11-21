@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+/* Fonts */
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-roboto-mono {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-courier-prime {
+    font-family: 'Courier Prime', monospace;
+}

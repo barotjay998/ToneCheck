@@ -1,5 +1,5 @@
 # ToneCheck Frontend
-### Unveiling the Impact of Privacy Policy Language
+### Unveiling the Impact of Dialects in Privacy Policy 
 
 ## Project Overview
 
