@@ -1,3 +1,8 @@
+/*
+In order to distinguish between the styles of framework and the styles of the project, we are going
+to use the prefix "tc" (for tone-check) that indicates the project name.
+*/
+
 /* Fonts */
 .font-roboto {
     font-family: 'Roboto', sans-serif;
@@ -14,3 +19,92 @@
 .font-courier-prime {
     font-family: 'Courier Prime', monospace;
 }
+
+/* Buttons */
+.tc-btn1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+}
+
+/* Colors */
+.tc-color-primary {
+    color: #f55e61;
+}
+
+.tc-background-primary {
+    background-color: #f55e61;
+}
+
+/* Header */
+.tc-logo {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.tc-logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.tc-hero-box {
+    border: 3px dashed #f55e61;
+    padding: 3rem 1rem 3rem 1rem;
+    border-radius: 1rem;
+}
+
+/* All childern of parent tc-hero-box */
+.tc-hero-box > * {
+    text-align: center;
+}
+
+.tc-hero-heading {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    color: #f55e61;
+}
+
+.tc-hero-info {
+    font-family: 'Courier Prime', monospace;
+    font-weight: 400;
+}
+
+/* Media Queries */
+
+/* Very Small devices (phones, 600px and up) */
+@media only screen and (min-width: 200px) {
+    .tc-hero-heading {
+        font-size: 1rem;
+    }
+}
+
+/* Small devices (phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .tc-hero-heading {
+        font-size: 1.5rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .tc-hero-heading {
+        font-size: 1.5rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .tc-hero-heading {
+        font-size: 2rem;
+    }
+}
+
+/* Extra Large devices (desktops, 1300px and up) */
+@media only screen and (min-width: 1300px) {
+    .tc-hero-heading {
+        font-size: 2rem;
+    }
+}
+  
