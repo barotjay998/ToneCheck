@@ -13,14 +13,15 @@
         <div class="col-11 col-sm-10 col-md-8 tc-hero-box">
 
           <!-- Greeting Heading -->
-          <div class="tc-hero-heading">
+          <div class="tc-heading1 tc-hero-heading">
+              <i class="fa-regular fa-handshake"></i>
               <p>
-                Greetings
+                Greetings!
               </p>
           </div>
 
           <!-- Greeting Information -->
-          <div class="tc-hero-info text-dark mx-2">
+          <div class="tc-info1 text-dark mx-2">
             <p>
               We extend a warm welcome and express our gratitude for your voluntary commitment 
               to participating in our study. To facilitate your contribution, the provided website 
@@ -33,7 +34,13 @@
 
           <!-- Next Button -->
           <div class="tc-btn1">
-            <button type="button" class="btn btn-danger px-4">Next</button>
+            <button 
+            type="button" 
+            class="btn btn-danger px-4"
+            (click)="onInternalLink('/consent-and-demographic')"
+            >
+              Next
+            </button>
           </div>
 
         </div>
