@@ -5,6 +5,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { ConsentAndDemographicComponent } from './consent-and-demographic/consent-and-demographic.component';
 import { PostSurveyComponent } from './post-survey/post-survey.component';
 import { NicheAndPrivacyPoliciesComponent } from './niche-and-privacy-policies/niche-and-privacy-policies.component';
+import { PolicyComponent } from './policy/policy.component';
 
 const routes: Routes = [
   { path: '', redirectTo : '/home', pathMatch: 'full' },
@@ -30,6 +31,14 @@ const routes: Routes = [
     data: { 
       metaDescription: "",
       title: "Step 2"
+    }
+  },
+  { 
+    path: 'policy/:domainId/:policyId', 
+    component : PolicyComponent, 
+    data: { 
+      metaDescription: "",
+      title: "Policy"
     }
   },
   { 
@@ -61,4 +70,5 @@ export const routingComponents = [
   ConsentAndDemographicComponent,
   PostSurveyComponent,
   NicheAndPrivacyPoliciesComponent,
+  PolicyComponent
 ];

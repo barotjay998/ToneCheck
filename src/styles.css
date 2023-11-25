@@ -107,9 +107,21 @@ to use the prefix "tc" (for tone-check) that indicates the project name.
 }
 
 .tc-dashed-box {
-    border: 2px dashed #f55e61;
+    border: 3px solid #8d8d8d;
     border-radius: 0.5rem;
     padding: 1rem;
+}
+
+.tc-policy-box {
+    border: 3px dashed #f55e61;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.tc-btn-radio {
+    border-left: none;
+    border-style: double;
+    border-radius: 0rem;
 }
 
 /* Media Queries */

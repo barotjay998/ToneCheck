@@ -1,6 +1,23 @@
 <section class="d-flex align-items-center" style="min-height: 100vh;">
     <div class="container">
-        <p>Page Not Found</p>
-
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center tc-heading1 tc-hero-heading">
+                <p>Page Not Found</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <button 
+                    type="button" 
+                    class="btn tc-btn-back btn-outline-dark btn-sm"
+                    (click)="onInternalLink('/home')"
+                >
+                    <span class="px-4 font-weight-bold">
+                        <i class="fa-solid fa-house-chimney"></i>
+                            Home
+                    </span>
+                </button>
+            </div>
+        </div>
     </div>
 </section>
