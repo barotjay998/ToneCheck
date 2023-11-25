@@ -1,32 +1,32 @@
 [
     {
-        "title": "Circle",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "This Privacy Notice outlines how Coursera, Inc., a Delaware corporation located at 381 E. Evelyn Ave., Mountain View, CA 94041, collects, uses, and shares information through our online interfaces ('Site'), including coursera.org and rhyme.com. Understanding is vital; queries can be directed to privacy@coursera.org. Site use is governed by our Terms of Use. Coursera, for the European Economic Area ('EEA'), serves as the data controller for Personal Data (as defined below), unless communicated otherwise.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "Coursera collects information about users through the Site, including information relating to your use of the Site, Personal Data provided directly by you or via third parties, Identity Verification Data, Communication Data, Third Party Site Data, Survey Data, Partner Site Data, and Payment Processing Data. This information is used to respond to your questions, provide you the specific Content Offering and/or Services you select, send you updates about Content Offerings or other Coursera events, and send you email messages about Site maintenance or updates.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "Coursera strongly believes in protecting the privacy of children. Any use or access by anyone under the age of 13 is prohibited, and certain regions and Content Offerings may have additional requirements and/or restrictions. In line with this belief, we do not knowingly collect or maintain Personal Data on our Site from persons under 13 years of age, and no part of our Site is directed to persons under 13 years of age. If you are under 13 years of age, then please do not use or access this Site at any time or in any manner. We will take appropriate steps to delete any Personal Data of persons less than 13 years of age that has been collected on our Site without verified parental consent upon learning of the existence of such Personal Data.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "Please note that we review our privacy practices from time to time, and that these practices are subject to change. Any change, update, or modification will be effective immediately upon posting on our Site. We will notify you of any material change to this Privacy Notice by posting a notice on our Site’s homepage for a reasonable period of time following such update or by sending an email to the email address associated with your user account, and by changing the effective date (located at the top and bottom of this page). Be sure to return to this page periodically to ensure familiarity with the most current version of this Privacy Notice."
     },
     {
-        "title": "Square",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "Hey there! We're Coursera, the laid-back Delaware crew at 381 E. Evelyn Ave., Mountain View, CA 94041. Wondering how we handle your info on our online hotspots, like coursera.org and rhyme.com? It's all in this Privacy Notice. Got questions? Shoot them to privacy@coursera.org. And remember, our cool Terms of Use cover your moves on the Site. Any privacy head-scratchers, hit us up. If you're in the European Economic Area ('EEA'), we're the data boss for your Personal Data – we'll explain below.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "Here at Coursera, we collect info about you from the Site – things like how you use it, Personal Data you give us directly or through others, Identity Verification Data, Communication Data, Third Party Site Data, Survey Data, Partner Site Data, and Payment Processing Data. Why? Well, we use all this to answer your questions, give you the specific Content Offering or Services you're into, shoot you updates about cool stuff happening on Coursera, and let you know about any Site maintenance or updates via email.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "We're all about protecting kids' privacy at Coursera. If you're under 13, sorry, but this site isn't for you. Different places and stuff we offer might have extra rules. We don't knowingly collect or keep personal info from anyone under 13, and our site isn't meant for them. If you're under 13, please don't use or try to get into this site. If we find out we've accidentally got personal info from someone under 13 without their parent's okay, we'll do what it takes to delete it.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "We take a look at our privacy practices every now and then, and things might change. If there's any change, update, or tweak, it kicks in right away as soon as we post it on our Site. And don't worry – if there's a big change to this Privacy Notice, we'll give you a heads up by putting a notice on our Site’s homepage or shooting you an email. You can also check the effective date at the top and bottom of this page. Make sure to drop by here every so often to stay in the loop with the latest version of this Privacy Notice."
     },
     {
-        "title": "Triangle",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "Welcome to Coursera! Your privacy matters to us, and we're here to guide you on how we handle your info. Coursera, Inc., a Delaware corporation, is all about transparency. Our base is at 381 E. Evelyn Ave., Mountain View, CA 94041. If any part of this Privacy Notice raises questions, we're here for you at privacy@coursera.org. Your journey on our Site is shaped by our caring Terms of Use. For those in the European Economic Area ('EEA'), trust us with your learning adventure – Coursera takes charge of your Personal Data on the Site, except in special cases, communicated to you.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "At Coursera, we want you to know exactly what info we're collecting. When you're on the Site, we gather data about how you use it, Personal Data you share directly or through third parties, Identity Verification Data, Communication Data, Third Party Site Data, Survey Data, Partner Site Data, and Payment Processing Data. Why? So we can answer your questions, tailor the Content Offerings and Services just for you, keep you in the loop about exciting Coursera events, and give you heads up on any Site maintenance or updates via email.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "At Coursera, we're committed to safeguarding the privacy of children. If you're under 13, sorry, but this platform isn't for you. Different regions and Content Offerings might have extra rules to follow. We're serious about not knowingly collecting or keeping Personal Data from those under 13, and our site isn't designed for them. If you're under 13, please don't use or try to access this site. If we find out we've accidentally collected Personal Data from someone under 13 without their parent's consent, we'll promptly take steps to delete it and make things right.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "We want you to know that we occasionally review our privacy practices, and things might change along the way. Any change, update, or tweak becomes effective as soon as we post it on our Site. If there's a significant change to this Privacy Notice, we won't leave you in the dark – we'll put up a notice on our Site’s homepage and send you an email. You'll also see the updated effective date at the top and bottom of this page. Make it a habit to check in here now and then to stay up-to-date with the latest version of this Privacy Notice."
     }
 ]

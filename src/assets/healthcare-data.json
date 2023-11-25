@@ -1,32 +1,32 @@
 [
     {
-        "title": "Circle",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "The Centers for Disease Control and Prevention (CDC) is unwavering in its commitment to preserving your privacy and safeguarding your personal information during your interactions with CDC websites, mobile applications, or when receiving public health information from CDC. In the realm of collecting, using, and disclosing personally identifiable information (PII), CDC adheres to all applicable federal laws. Our privacy policy is explicit: CDC refrains from collecting any personally identifiable information (PII) during your visit to any of CDC’s digital medial channels unless voluntarily provided by you. Any PII voluntarily provided is afforded complete protection. Non-PII information associated with your website visit may be automatically collected and temporarily stored.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "When visiting the CDC website or accessing its information through APIs on other sites, certain non-personal information is automatically collected and temporarily stored. This includes your Internet domain and IP address, details about your computer or mobile device, visit date and time, accessed pages or screens, frequency of access, data transmission volume, and, if applicable, the preceding website's internet address or URL. This information is collected for statistical purposes and does not personally identify you.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "We prioritize safeguarding the online privacy of children and adhere to the Children’s Online Privacy Protection Act (COPPA). To ensure compliance, we seek parental consent before collecting, using, or sharing personal information of children under 13. When gathering information about a child, COPPA guidelines are followed, outlining the purpose, recipients, and duration of data usage. Personal information collected in response to a child's communication is promptly discarded after fulfilling its intended purpose, unless historical preservation is deemed necessary, in which case parental consent is obtained. While our online tools and services may inadvertently receive information from children under 13, any such data is promptly deleted upon discovery. Our digital platforms are not designed to solicit information from children under 13, and concerns regarding information received from or about them can be addressed by contacting the CDC Privacy Office.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "We will revise or update this policy from time to time. If we make significant changes to how we handle personal information, we will post changes to the policy on our site and change the date at the bottom. We will provide additional notice in advance (e.g., a disclaimer on our website or an email to subscribers) if material changes are being made."
     },
     {
-        "title": "Square",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "Hey there! The Centers for Disease Control and Prevention (CDC) takes your privacy super seriously. Whether you're browsing CDC websites, using our apps, or getting health info from us, we've got your back. When it comes to personally identifiable information (PII), we follow all the federal rules. Here's the lowdown: We don't scoop up any personally identifiable info (PII) when you're hanging out on our digital spots unless you decide to share it. If you do share any PII, don't worry, we've got it under lock and key. And, just so you know, we might snag some non-PII info about your website visit, but it's all good and temporary.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "What Happens When You Visit CDC: So, when you're checking out the CDC website or using its info through APIs on other sites, we grab some non-personal info – like your internet domain, IP address, stuff about your computer or phone, when you visited, what pages you looked at, how often you drop by, data volume, and, if it applies, the website you were on before ours. We're collecting this for stats, not to figure out who you are personally.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "Making sure kids' online privacy is safe is a big deal for us, and we stick to the Children’s Online Privacy Protection Act (COPPA) rules. To follow the rules, we get the okay from parents before we collect, use, or share personal info from kids under 13. When we're collecting info about a child, we follow COPPA guidelines that spell out why, who gets it, and how long we'll use it. Any personal info we grab when a child reaches out is tossed as soon as it's done what it's supposed to, unless we need to keep it for history – and if that's the case, we get the green light from parents. Sometimes, our online tools and services might accidentally get info from kids under 13, but don't worry – we delete it right away when we find out. Our online stuff isn't meant to ask for info from kids under 13, but if you have any worries about info we got from them, reach out to the CDC Privacy Office.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "We'll be revising or updating this policy now and then. If we're making big changes to how we handle personal information, you'll see updates right here on our site, and we'll change the date at the bottom. And don't worry, if there are major changes, we'll give you a heads up in advance – like with a disclaimer on our website or an email to subscribers."
     },
     {
-        "title": "Triangle",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "At the Centers for Disease Control and Prevention (CDC), your privacy is paramount. We are dedicated to ensuring the protection of your personal information when you engage with CDC websites, mobile apps, or receive health info from us. In the collection, use, and disclosure of personally identifiable information (PII), CDC strictly adheres to all applicable federal laws. Here's what you need to know: Your visit to any of CDC’s digital channels won't result in the collection of personally identifiable information (PII) unless you choose to share it with us. Rest assured, any PII you choose to share is treated with the utmost care and security. While we may automatically gather and temporarily store non-PII information related to your website visit, your privacy remains our top priority.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "Understanding Your Visit: We want you to know what happens when you visit the CDC website or use its info through APIs on other sites. Some non-personal info is automatically collected – things like your internet domain, IP address, details about your computer or mobile device, when you visited, the pages you checked out, how often you come by, data volume, and, if it applies, the website you were on before ours. We're collecting this for statistical purposes, not to personally identify you.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "Your kids' privacy is a top priority for us, and that's why we follow the Children’s Online Privacy Protection Act (COPPA) guidelines. To make sure we're on track, we always get parental consent before collecting, using, or sharing personal info from kids under 13. When we're gathering info about a child, we stick to COPPA guidelines that lay out why we're doing it, who's getting the info, and how long we'll use it. Any personal info we get when a child reaches out is promptly deleted once it's served its purpose, unless we need to keep it for historical reasons – and even then, we get the okay from parents. Every now and then, our online tools and services might accidentally pick up info from kids under 13, but rest assured – we delete it ASAP when we find out. Our online platforms aren't set up to ask for info from kids under 13, but if you have any concerns about info we have from or about them, don't hesitate to get in touch with the CDC Privacy Office.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "We want you to feel at ease, so know that we'll be revising or updating this policy every now and then. If there are significant changes in how we handle personal information, you'll find the updates here on our site, and we'll update the date at the bottom. Plus, if there are major changes coming up, we'll make sure to give you a heads up in advance – maybe with a disclaimer on our website or an email to subscribers."
     }
 ]

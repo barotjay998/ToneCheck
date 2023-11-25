@@ -124,6 +124,16 @@ to use the prefix "tc" (for tone-check) that indicates the project name.
     border-radius: 0rem;
 }
 
+.tc-policy-info {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.tc-policy-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
 /* Media Queries */
 
 /* Very Small devices (phones, 600px and up) */

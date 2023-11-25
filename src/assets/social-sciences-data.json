@@ -1,32 +1,32 @@
 [
     {
-        "title": "Circle",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "We take your privacy seriously. This concise reference guide outlines how JSTOR utilizes your information and upholds your data rights. Further details can be found in our comprehensive privacy policy below. For any inquiries, please reach out to us at privacy@jstor.org. JSTOR collects and utilizes personal information provided by you in connection with the services offered through its listed websites (collectively referred to as 'JSTOR Services' and 'JSTOR Websites'). You are welcome to contact us with any questions or concerns at any time. JSTOR offers this policy to ensure your understanding of the information we collect and use, contingent upon the JSTOR website and service you use, along with the choices available to you regarding our use of, your access to, and how you can update such information in connection with the services provided on JSTOR’s Websites.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "We collect and utilize personal information at JSTOR to enable your use of our websites and services, ensuring its relevance, accuracy, and completeness in accordance with intended purposes and terms. As a non-profit organization, we do not sell personal information and limit its use to providing elected services and relevant communications. Depending on your interaction with JSTOR, we may use information for monitoring, operating, and improving our websites, as well as enhancing user experience. We may share data with third parties for business operations and assistance, adhering to privacy policies. Legal compliance, protection of rights, and notification in case of changes in ownership are integral to our practices. Additionally, non-personal information is collected for an optimal browsing experience, and automated-decision practices will be communicated with opt-out options.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "JSTOR does not knowingly collect personal information from anyone under the age of 16. If it is discovered that we have collected personal information from someone under 16 we promptly will delete that information. Please note: As stated above, JSTOR does not collect personal information unless you choose to share it. Users under 16 may use the JSTOR Websites directly on the internet and/or through their institution account as long as they do not take steps to share their personal information.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "At JSTOR, your privacy is important to us. We will notify you of updates to our privacy policy when we change the scope of how we use personal data."
     },
     {
-        "title": "Square",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "We're serious about your privacy. This quick guide gives you the lowdown on how JSTOR uses your info and respects your data rights. For the nitty-gritty, check out our full privacy policy below. Questions? Hit us up at privacy@jstor.org. When you engage with JSTOR through its websites (collectively known as 'JSTOR Services' and 'JSTOR Websites'), we collect and use the personal info you provide. Anytime you have questions or concerns, just drop us a line. This policy is our way of keeping you in the loop about what info we collect and how you can manage it based on the JSTOR website and service you're using.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "We collect and use your personal info at JSTOR to make sure you can use our websites and services smoothly, keeping things relevant, accurate, and complete as intended. Being a non-profit, we don't sell your personal info – we only use it to give you the services you choose and send you stuff that matters. Depending on how you interact with JSTOR, we might use your info to keep an eye on things, run our websites better, and make your experience awesome. We might share some data with other folks for help with our operations, sticking to our privacy policies, of course. Following the rules, protecting your rights, and letting you know if anything changes in ownership – that's how we roll. Also, we collect some non-personal info to make your browsing experience top-notch, and we'll always let you know if we're making decisions automatically, with options to opt-out.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "You've gotta be 16 or older to use JSTOR. We don't knowingly grab personal info from anyone under 16. If we find out we accidentally got personal info from someone under 16, we'll delete it right away. And remember, we don't collect personal info unless you decide to share it. If you're under 16, you're good to go using JSTOR Websites online or through your school account, just as long as you don't go sharing your personal info.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "At JSTOR, your privacy matters to us. We'll give you a heads up when we update our privacy policy and make changes to how we use personal data."
     },
     {
-        "title": "Triangle",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "Your privacy matters to us – a lot. This quick reference guide is here to walk you through how JSTOR handles your information and respects your data rights. For a deeper dive, our comprehensive privacy policy is just a scroll away. If you ever have questions, feel free to connect with us at privacy@jstor.org. JSTOR collects and uses your personal information in connection with the services offered on its websites, collectively known as 'JSTOR Services' and 'JSTOR Websites.' We've provided this policy to ensure you understand what information we collect and how it's used based on the JSTOR website and service you engage with, along with the choices you have regarding its use, access, and updates in connection with the services provided on JSTOR’s Websites.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "We want you to feel comfortable using JSTOR, so here's how we handle your info. We collect and use your personal information to make sure you can smoothly use our websites and services, keeping things relevant, accurate, and complete as intended. Because we're a non-profit, we don't sell your personal information – we only use it to provide you with the services you choose and send you communications that matter. Depending on how you interact with JSTOR, we might use your information to monitor, operate, and improve our websites, enhancing your overall experience. We may share some data with third parties for operational help, always sticking to our privacy policies. Legal compliance, protecting your rights, and keeping you in the loop about changes in ownership are core to our practices. Additionally, we collect non-personal information to ensure your browsing experience is optimal, and we'll always communicate automated decision practices with options for you to opt-out.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "We want to make sure you know that you've got to be 16 or older to use JSTOR. We're careful not to collect personal info from anyone under 16, and if we find out we have, we'll get rid of it fast. Just a heads up – we only collect personal info if you decide to share it. If you're under 16, feel free to use JSTOR Websites online or through your school account, but keep in mind not to share your personal info.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "We want you to feel secure – at JSTOR, your privacy is a priority. Expect notifications from us when we update our privacy policy and adjust how we use personal data."
     }
 ]

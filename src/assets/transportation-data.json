@@ -1,32 +1,32 @@
 [
     {
-        "title": "Circle",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "Waze Mobile Limited holds your privacy in high regard. Waze Mobile Limited and its affiliates ('Waze' or the 'Company') provide mapping, GPS navigation, and community-based services to users of www.waze.com (the 'Website') and/or users of Waze’s applications (the 'Application') (collectively referred to as the 'Services'). By utilizing our services, you place your trust in us with your information. Recognizing the significant responsibility this entails, we diligently work to safeguard your information and empower you with control. This Privacy Policy is designed to clarify the information we collect, the reasons for its collection, and how you can update, manage, and delete your information.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "We collect user information to enhance our services, tailoring experiences based on user preferences and optimizing features like route recommendations and traffic monitoring. The data collected, such as account information and user-shared details, varies depending on user choices and privacy settings. Users may provide information voluntarily, like connecting their social network accounts or utilizing features such as the 'find friends' option. We also gather activity information, including location data, search history, content interactions, and meta-data about device use. Our app utilizes technologies like cookies and Advertising IDs to store and analyze information. Additionally, we collaborate with ad partners to display relevant ads, with users having the option to personalize ad preferences through privacy settings.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "To use Waze Services you must be 16 years of age or older. If you are under 16, you may not download or use the Services.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "Waze may from time to time change the terms of this Privacy Policy. Substantial changes will take effect 30 days after Waze has posted a system message to users notifying them of changes to the Privacy Policy and a notification on the Website’s homepage or any other relevant web pages, explaining the changes to the Privacy Policy alongside a comparison of the “old” and “new” versions of the Privacy Policy. Other changes will take effect 7 days after their initial posting on the Website. However, if Waze amends this Privacy Policy to comply with legal requirements, the amendments will become effective immediately upon their initial posting, or as required. You agree to be bound by any of the changes made in the terms of this Privacy Policy. Continuing to use the Services will indicate your acceptance of the amended terms. If you do not agree with any of the amended terms, you must avoid any further use of the Services."
     },
     {
-        "title": "Square",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "Hey there! At Waze Mobile Limited, we've got your privacy covered. We're the crew behind the mapping, GPS navigation, and cool community-based services on www.waze.com (the 'Website') and in Waze's applications (the 'Application') – together known as the 'Services.' When you use our services, you're trusting us with your info, and that's a big deal. We take that seriously and work hard to keep your info safe and give you the reins. This Privacy Policy is here to break down what info we collect, why we collect it, and how you can manage, update, or say goodbye to your info.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "We collect info from you to make our services better, customizing things based on what you like and making features like route suggestions and traffic monitoring work even smoother. The data we grab, like account info and what you share, depends on what you're cool with – you get to choose in your settings. You can even give us info voluntarily, like connecting your social accounts or using features like 'find friends.' We also look at what you do in the app – where you are, what you search, how you interact with stuff, and even some techy details about your device. We use things like cookies and Advertising IDs to store and analyze this info. Plus, we team up with ad folks to show you ads that fit, but you can tweak your ad preferences in your privacy settings.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "Just a heads up – you need to be 16 or older to use Waze Services. If you're under 16, sorry, but downloading or using the Services isn't an option.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "Every now and then, Waze might tweak the terms of this Privacy Policy. Big changes will kick in 30 days after Waze posts a system message and a notification on the Website’s homepage, explaining the changes and comparing the “old” and “new” versions of the Privacy Policy. Other changes will take effect 7 days after they're first posted on the Website. If Waze needs to tweak things to comply with the law, those changes take effect right away. By using the Services, you're agreeing to any changes in this Privacy Policy. If you're not on board with the updates, it's best to steer clear of using the Services further."
     },
     {
-        "title": "Triangle",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "At Waze Mobile Limited, your privacy is a priority. We, along with our affiliates ('Waze' or the 'Company'), bring you mapping, GPS navigation, and community-based services through www.waze.com (the 'Website') and Waze’s applications (the 'Application') – collectively known as the 'Services.' When you use our services, you entrust us with your information. Understanding the weight of this responsibility, we are dedicated to safeguarding your information and giving you control. This Privacy Policy is your guide to understanding what information we collect, why we collect it, and how you can manage, update, or delete your information.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "We collect user data to make our services even better, personalizing things based on what you like and fine-tuning features like route recommendations and traffic monitoring. The info we collect, like account details and user-shared stuff, depends on what you're comfortable with – you get to choose in your settings. You can even share info voluntarily, like connecting your social accounts or using features like 'find friends.' We also pay attention to what you do in the app – where you go, what you search, how you interact with content, and even some technical details about your device. We use things like cookies and Advertising IDs to store and analyze this info. Plus, we team up with ad partners to show you ads that match your interests, but you have the power to personalize your ad preferences in your privacy settings.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "We want to make sure you know that to use Waze Services, you've gotta be 16 or older. If you're under 16, we're sorry, but downloading or using the Services isn't something we can do.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "We want you to be informed – Waze might make changes to the terms of this Privacy Policy now and then. Major changes give you a 30-day heads up with a system message and a notification on the Website’s homepage, explaining the changes and comparing the “old” and “new” versions of the Privacy Policy. Other changes take effect 7 days after being posted on the Website. If Waze needs to make quick changes to comply with the law, those take effect right away. By continuing to use the Services, you're saying okay to any changes in this Privacy Policy. If you're not comfortable with the updates, it's best to steer clear of using the Services further."
     }
 ]

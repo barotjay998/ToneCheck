@@ -1,32 +1,32 @@
 [
     {
-        "title": "Circle",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "The Economist Group places high importance on your privacy. This privacy policy provides a comprehensive overview of how we collect, use, and protect your personal data. We recognize the significance of transparency and trust in our relationship with you. Ensuring your enjoyment of our products, services, and websites in a safe and secure manner is equally paramount. This policy outlines the methods by which we collect and utilize various types of personal and behavioral information, along with the rationale behind these practices.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "We gather information, such as subscriber contact details, including but not limited to name, postal address, email address, and payment details, to provide services and products, like fulfilling subscriptions to The Economist Newspaper. For our Economist events and Intelligence services, additional details like job title, work email, company, country, and industry may be collected. When you use our online platforms or apps, we employ cookies and similar technologies to collect data such as browser, email provider, pages accessed, device, IP address, internet connection, and, in some cases, location. This information helps tailor our services and improve user experiences. We may also obtain data from third parties to enhance our understanding of you, but we do not track or collect sensitive information unless under exceptional circumstances.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "The Economist Newspaper Limited processes limited personal data of individuals aged 16 to 18 to fulfill subscriptions. Where we do so, we minimize the data collected and where required, we ask schools to obtain parental or guardian consent for this data processing. Please see The Economist Educational Foundation’s separate privacy policy for more information on how it processes children’s data.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "From time to time, we may make changes to our privacy policy. This may be in relation to changes in the law, best practice, or changes in our services. These changes will be reflected in this statement, so you should check here regularly"
     },
     {
-        "title": "Square",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "We really care about your privacy here at The Economist Group. Our privacy policy breaks down how we collect, use, and safeguard your personal data. We get that transparency and trust matter to you, and they matter to us too. Making sure you have a great and safe time using our products, services, and websites is a big deal for us. This policy spills the beans on how we handle different types of personal and behavioral info and why we do it.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "What We Collect: We grab info to make sure you get what you need – subscriber details like your name, address, email, and payment info, especially for stuff like The Economist Newspaper subscriptions. If you're into Economist events or Intelligence services, we might ask for extras like your job title, work email, company, country, and industry. When you're cruising our online platforms or apps, we use cookies and similar tech to snag details like your browser, email provider, what pages you hit, device info, IP address, internet connection, and sometimes where you are. All this info helps us tweak our services and make your user experience even better. Sometimes, we might get some data from pals (third parties) to understand you better, but we're not in the business of tracking or collecting sensitive info unless something really exceptional is going on.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "The Economist Newspaper Limited deals with a bit of personal info from folks aged 16 to 18 to sort out subscriptions. When we do this, we keep the info we gather to a minimum, and if needed, we ask schools to check with parents or guardians before we go ahead. If you want more details on how The Economist Educational Foundation deals with kids' data, you can check out their separate privacy policy.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "Every now and then, we might tweak our privacy policy. It could be because of changes in the law, best practices, or how our services work. You'll see those changes right here in this statement, so feel free to drop by and check in regularly."
     },
     {
-        "title": "Triangle",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "Your privacy is a top priority for The Economist Group. This privacy policy is our commitment to explaining, in a transparent and trustworthy manner, how we collect, use, and protect your personal data. We understand the importance of ensuring your comfort and security while using our products, services, and websites. This policy goes into detail about the various types of personal and behavioral information we collect, and the reasons behind each decision, all with your well-being in mind.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "Understanding Your Information: Your experience matters to us, so here's what we collect to make it better – your subscriber contact details, covering things like your name, address, email, and payment info, especially if you're diving into The Economist Newspaper. For events and Intelligence services, we might ask for a bit more, like your job title, work email, company, country, and industry. When you're hanging out on our online platforms or apps, we use cookies and similar tech to pick up details like your browser, email provider, the pages you check out, your device info, IP address, internet connection, and sometimes your location. All this info helps us fine-tune our services and enhance your user experience. Every now and then, we might get some data from friends (third parties) to get to know you better, but we're not about tracking or collecting sensitive info unless there's something truly exceptional happening.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "We want you to know that The Economist Newspaper Limited handles a bit of personal info from individuals aged 16 to 18 to make sure their subscriptions are all sorted. When we do this, we make sure to keep the info we collect to a minimum, and when necessary, we make sure schools get the green light from parents or guardians before we proceed. If you're curious about how The Economist Educational Foundation manages kids' data, you can dive into their separate privacy policy for more insights.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "We want you to know that every so often, we might make changes to our privacy policy. It could be due to changes in the law, best practices, or how our services evolve. You'll see those updates right here in this statement, so make it a habit to check in regularly – your awareness is important to us."
     }
 ]

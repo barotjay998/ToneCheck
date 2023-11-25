@@ -1,32 +1,32 @@
 [
     {
-        "title": "Circle",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "Thank you for visiting the United States Department of Justice (DOJ or Department) website and reviewing our Privacy Policy. The Department is committed to protecting your privacy and securing the personal information made available to us when you access our public-facing websites and applications. This Privacy Policy describes what information is made available to the Department, what information the Department collects, how that information is used, and how information is stored when you visit the Department’s public-facing websites or official DOJ accounts on third-party websites and applications. The Department’s Chief Privacy and Civil Liberties Officer, in coordination with the Department’s Office of Privacy and Civil Liberties, manages and oversees the Department’s Privacy Program. The Department Privacy Program webpage can be found here: https://www.justice.gov/opcl.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "When you access information on our websites, the Department of Justice, or its contractors will automatically collect and store basic information, including the internet domain name, IP address, browser type, operating system, access date and time, referring website, and the pages visited. This data is primarily gathered for statistical analysis and technical enhancements to the site, aiding in assessing public interest, determining design specifications, and identifying system performance areas. While the primary intent is not individual tracking, the Department may, in certain circumstances and in accordance with Federal law, take additional steps to identify and share information, including identity, with other agencies.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "We believe in the importance of protecting the privacy of children online and do not knowingly contact or collect personal information from children under 13. Unless otherwise stated, our websites are not intended to solicit information of any kind from children under 13.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "The Department maintains several lists of subscribers who have asked to receive periodic email updates. Any recipient of a Department email may unsubscribe from future messages via a link at the bottom of each email message. We do not sell, rent, exchange, or otherwise disclose our list subscribers to persons or organizations outside the Department. Our email analytics provider, GovDelivery, also offers the capability to view some data, such as whether a mass email was opened, at an individual level for 30 days after an email was sent; as a matter of policy and practice, this data is only viewed on an aggregate basis. The Department’s websites may contain links to websites created and maintained by other public or private organizations. We provide these links as a service to visitors to our site. When you follow a link to an external site, you are leaving the Department and are subject to the privacy and security policies of the external site."
     },
     {
-        "title": "Square",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "Thanks for stopping by the United States Department of Justice (DOJ) website! We appreciate you checking out our Privacy Policy. We take your privacy seriously and want you to feel secure when using our public websites and apps. Our Privacy Policy spills the beans on what info is available to us, what we collect, how we use it, and where it's stored when you visit our websites or our official DOJ accounts on other sites. Our Chief Privacy and Civil Liberties Officer, along with our Office of Privacy and Civil Liberties, is on top of our Privacy Program. If you want to dive deeper, our Privacy Program webpage is here: https://www.justice.gov/opcl.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "What Happens When You Visit: So, when you check out info on our websites, the Department of Justice and its crew will automatically scoop up some basic info – things like the internet domain name, IP address, what browser you're using, your operating system, when you came by, where you came from, and what pages you checked out. We're not trying to stalk you individually with this – it's mainly for stats and making the site better. Helps us see what folks are interested in, figure out how to make things look better, and spot areas where the site can run smoother. Now, we're not all about tracking individuals, but there are some situations where, in line with Federal law, we might need to take extra steps to figure out who you are and share that info, including your identity, with other agencies.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "We really care about keeping kids' privacy safe online, so we don't try to get in touch with or collect personal info from kids under 13. Just so you know, our websites aren't meant to get any info from kids under 13 unless we say otherwise.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "The Department keeps a few lists of subscribers who want to get email updates from us. If you ever get a Department email and want out, no worries – just hit the unsubscribe link at the bottom of the email. We don't share our subscriber lists with anyone outside the Department – that's a promise. Our email analytics provider, GovDelivery, lets us see some data, like if folks opened a mass email, but don't worry, we only look at it in a big picture way. You might find links on the Department’s websites that take you to other sites made by different groups. We put those links there to help you out, but keep in mind, once you click, you're leaving the Department and diving into the privacy and security rules of that other site."
     },
     {
-        "title": "Triangle",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "Thank you for being a part of the United States Department of Justice (DOJ) online community! Your visit and trust mean a lot. Our Privacy Policy is here to assure you that we are dedicated to safeguarding your privacy and the personal information you share with us while exploring our public-facing websites and applications. We want you to know what information is accessible to us, how we handle it, and where it's stored. The guardians of your privacy, our Chief Privacy and Civil Liberties Officer, along with the Office of Privacy and Civil Liberties, oversee our Privacy Program. For more details, check out our Privacy Program webpage: https://www.justice.gov/opcl.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "Understanding Your Visit: We want you to know what happens when you browse our websites. The Department of Justice and its contractors automatically collect and store some basic info – things like the internet domain name, IP address, browser type, operating system, when you visited, where you came from, and the pages you looked at. This data is primarily gathered for statistical analysis and technical improvements to the site, helping us understand what the public is interested in, design better-looking pages, and identify areas where the site can perform even better. We're not out to individually track you, but there might be certain situations, in accordance with Federal law, where we need to take extra steps to identify and share information, including your identity, with other agencies.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "We're big on making sure kids' privacy is protected online. That's why we don't knowingly reach out to or gather personal info from kids under 13. Our websites are generally not meant to ask for any info from kids under 13, unless we explicitly say otherwise.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "We want you to know that the Department has a few lists of subscribers who like getting email updates from us. If you ever want to stop getting our emails, just click the unsubscribe link at the bottom – no hard feelings. We make sure not to share our subscriber lists with anyone outside the Department – that's a commitment we stick to. Our email analytics provider, GovDelivery, lets us see some data, like if folks opened a mass email, but rest assured, we only check it out in a big picture way. You might notice links on the Department’s websites that lead to other sites made by different groups. Those links are there to help you out, but remember, once you click, you're stepping out of the Department and into the privacy and security rules of that other site."
     }
 ]

@@ -1,32 +1,32 @@
 [
     {
-        "title": "Circle",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "Protecting your privacy is of utmost importance to Autodesk. This Privacy Statement elucidates how Autodesk processes personal data collected through websites, products, and services ('applications'), including those distributed by our resellers and other channel partners. It also encompasses data gathered through in-person and digital events, webinars, surveys, marketing activities, and visits to our premises. All these collectively constitute our 'offerings.' References to 'Autodesk,' 'we,' or 'our' encompass Autodesk, Inc. and other entities within the Autodesk corporate family linked to this Privacy Statement. A comprehensive list of entities within the Autodesk corporate family can be found here.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "We collect personal data through various channels, including direct input from you, automated means such as cookies, and information obtained from third parties. Directly provided information encompasses details like your name, contact information, professional and educational background, financial details, and preferences. When you make purchases through our websites, payment processors handle financial information, and we do not store credit card details. Automatically collected or generated data includes identifiers, internet activity information, geolocation details, and inferences drawn from your interactions. We employ cookies and related technologies for data storage during your application use, and you can manage your preferences through application settings or website footers. Additionally, we utilize analytics tools and receive information from affiliates, third-party sources, and social networking services to enhance our databases and offer more tailored content and experiences in compliance with applicable laws.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "This Children's Privacy Statement complements the Autodesk Privacy Statement by detailing the processing of children's personal data in both Children's applications and general interest applications when it's known that a user is a child. The protections outlined in this statement apply to users of Children's applications, including adults, and student users in K-12 educational settings under a signed Autodesk student data privacy agreement. The definition of a child is based on applicable law, such as the U.S. Children's Online Privacy Protection Act. Autodesk primarily designs its websites, products, and services for adults, with Tinkercad being the only Children's application currently. In case of any conflict with the Autodesk Privacy Statement, this Children's Privacy Statement takes precedence in treating children's personal data according to the law. If any processing is found inconsistent with the law, Autodesk will promptly rectify it, including data deletion or obtaining necessary permissions. U.S. visitors can find additional information on children's online privacy at OnGuard Online.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "We may change this Privacy Statement to reflect changes in the law, our data handling practices, or the features of our business. The updated Privacy Statement will be available at our Trust Center here. We will show the date the Privacy Statement was last updated to help you know when we change it. If we make material changes to our Privacy Statement, we will endeavor to provide you with notice before such changes take effect, such as through prominent notice on our website or services or by email."
     },
     {
-        "title": "Square",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "Hey there! At Autodesk, your privacy is a big deal. This Privacy Statement breaks down how we handle your personal data collected from our websites, products, and services ('applications'). That includes stuff from our partners too. We're talking in-person and digital events, webinars, surveys, marketing activities, and even visits to our digs – all bundled up as our 'offerings.' When we say 'Autodesk,' 'we,' or 'our,' we're talking about Autodesk, Inc. and the gang connected to this Privacy Statement. You can find the whole crew here.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "We gather personal data from different places – stuff you tell us directly, things we pick up automatically using cookies, and info we get from others. The direct input part includes things like your name, contact details, professional and educational background, financial info, and what you prefer. If you buy something on our websites, the money stuff goes through payment processors – we don't hang on to your credit card details. The automatic collection or generated data involves IDs, details about what you do online, where you're at, and things we figure out from your actions. We use cookies and techie stuff to store data while you use our app, and you can tweak your settings in the app or on our website. Also, we use analytics tools and get info from friends, other sources, and social networks to make our databases better and offer you more personalized stuff, all in line with the rules.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "This Children's Privacy Statement is like an extra layer to the Autodesk Privacy Statement, diving into how we handle kids' personal info in Children's apps and regular apps when we know a user is a child. The protections in this statement cover users of Children's apps, even adults, and student users in K-12 schools with a signed deal on student data privacy with Autodesk. We go by the definition of a child in the law, like the U.S. Children's Online Privacy Protection Act. Most of our websites, products, and services are made for grown-ups, except for Tinkercad, which is our only Children's app right now. If there's any clash with the Autodesk Privacy Statement, this Children's Privacy Statement wins when it comes to dealing with kids' personal data according to the law. If we find anything not playing by the rules, we'll fix it fast – that could mean deleting data or getting the right permissions. U.S. visitors can get more info on kids' online privacy at OnGuard Online.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "We might tweak this Privacy Statement to stay in line with changes in the law, our data practices, or how our business works. You can find the updated Privacy Statement at our Trust Center here. We'll also make sure to show you when we last updated it. If there are big changes, we'll do our best to give you a heads up before they kick in, like with a notice on our website or services, or even an email."
     },
     {
-        "title": "Triangle",
-        "techStack": [
-            "SciBERT", 
-            "Angular", 
-            "Flask", 
-            "Docker",
-            "Netlify"
-        ]
+        "IntroductionAndWhoWeAreTitle": "Introduction And Who We Are",
+        "IntroductionAndWhoWeAre": "Your privacy matters to us at Autodesk, and we're here to guide you through it. This Privacy Statement lays out how we handle your personal data from our websites, products, and services ('applications'), and that includes the good stuff from our partners. It covers everything – in-person and digital events, webinars, surveys, marketing activities, and even when you visit us. All bundled together as our 'offerings.' When we talk about 'Autodesk,' 'we,' or 'our,' we mean Autodesk, Inc. and the other friendly entities in the Autodesk corporate family connected to this Privacy Statement. You can meet the whole family here.",
+        "InformationWeCollectTitle": "Information We Collect",
+        "InformationWeCollect": "We want you to know exactly what data we collect and how. We get personal data from different sources – directly from you, through automated means like cookies, and from third parties. The info you give us directly includes things like your name, contact details, professional and educational background, financial details, and your preferences. When you make purchases on our websites, your financial info is handled by payment processors, and we don't store your credit card details. The data we collect automatically or generate includes IDs, details about your online activities, where you are, and insights we draw from how you interact with us. We use cookies and related tech to store data while you use our application, and you have control over your preferences through application settings or website footers. Additionally, we use analytics tools and receive information from affiliates, third-party sources, and social networking services to improve our databases and provide you with more personalized content and experiences, all while complying with applicable laws.",
+        "AgeAndChildrenTitle": "Age and Children",
+        "AgeAndChildren": "We want you to know exactly how we handle kids' personal data, so here's our Children's Privacy Statement, working alongside the Autodesk Privacy Statement. This statement gets into the nitty-gritty of how we process kids' info in both Children's apps and regular apps when we know a user is a child. The protections here cover users of Children's apps, whether they're kids or adults, and students in K-12 schools who've signed a student data privacy agreement with Autodesk. We stick to the definition of a child in the law, like the U.S. Children's Online Privacy Protection Act. Our websites, products, and services are mostly crafted for grown-ups, except for Tinkercad, which is our only Children's app right now. If there's any conflict with the Autodesk Privacy Statement, this Children's Privacy Statement takes the lead in treating kids' personal data according to the law. If we find anything not in line with the rules, we'll fix it pronto – that might mean deleting data or getting the right permissions. U.S. visitors can dig deeper into kids' online privacy at OnGuard Online.",
+        "ChangingOurPrivacyNoticeTitle": "Changing Our Privacy Notice",
+        "ChangingOurPrivacyNotice": "We want you to be aware that we might make changes to this Privacy Statement to keep up with the law, our data practices, or the way our business works. You can always find the updated Privacy Statement at our Trust Center here. We'll also make it clear when we last updated it so you can stay in the know. If there are significant changes, we'll do our best to give you a heads up before they go into effect, whether through a notice on our website or services, or even an email."
     }
 ]

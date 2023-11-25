@@ -78,6 +78,10 @@ export class PolicyComponent {
 
   selectTone(data: any) {
 
+    // c - Formal Legal
+    // s - Casual Conversational
+    // t - User Centric Empathetic
+
     if (this.policyId === 'c') {
       this.policyData = data[0];
     }
@@ -87,6 +91,8 @@ export class PolicyComponent {
     else if (this.policyId === 't') {
       this.policyData = data[2];
     }
+
+    console.log(this.policyData);
 
   }
 
