@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Circle",
+        "techStack": [
+            "SciBERT", 
+            "Angular", 
+            "Flask", 
+            "Docker",
+            "Netlify"
+        ]
+    },
+    {
+        "title": "Square",
+        "techStack": [
+            "SciBERT", 
+            "Angular", 
+            "Flask", 
+            "Docker",
+            "Netlify"
+        ]
+    },
+    {
+        "title": "Triangle",
+        "techStack": [
+            "SciBERT", 
+            "Angular", 
+            "Flask", 
+            "Docker",
+            "Netlify"
+        ]
+    }
+]

@@ -1,0 +1,300 @@
+<div class="container-fluid back-btn-container">
+    <div class="row">
+        <div class="col-md-12">
+            <button 
+                type="button" 
+                class="btn tc-btn-back btn-outline-dark btn-sm"
+                (click)="onInternalLink('/consent-and-demographic')"
+            >
+                <i class="fa-solid fa-angles-left"></i>
+                <span class="px-4 font-weight-bold">
+                        Back
+                </span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Consent And Demographic Section -->
+<section id="niche-and-privacy-policy" class="d-flex align-items-center mb-4" style="min-height: 80vh">
+
+    <div class="container-fluid">
+
+        <div class="row justify-content-center mb-3">
+            <div 
+                class="col-md-3
+                text-center
+                text-md-right"
+            >
+                <label class="tc-label px-4 text-center">
+                    Step Two:
+                </label>
+            </div>
+
+            <div 
+                class="col-md-3
+                text-center
+                text-md-left
+                tc-heading1
+                tc-sub-heading
+                align-self-center
+                "
+            >
+                <p>
+                    Privacy Policies
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-left tc-info1 h6">
+                <p>
+                    You've been assigned a sequence of shapes: Circle <i class="fa-solid fa-circle tc-color-primary"></i>, 
+                    Square <i class="fa-solid fa-square tc-color-primary"></i>, Triangle <i class="fa-solid fa-play tc-color-primary"></i>. 
+                    Each shape corresponds to a privacy policy link below. Please follow these steps:   
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row justify-content-center mb-4 mx-2">
+            <div class="col-md-8 tc-dashed-box">
+                <p>
+                    <strong>1. Choose Your Industry:</strong> <br>
+                    <span>Select the industry domain you work in</span>
+                </p>
+                
+                <!-- Industry Buttons -->
+                <div class="row justify-content-center mb-4">
+                    <div class="col-lg-11 text-center">
+                        <div class="btn-group d-inline-flex flex-wrap">
+                            <!-- Education -->
+                            <div class="d-inline-flex">
+                                <input
+                                type="radio"
+                                class="btn-check ml-3"
+                                style="scale: 1.3;"
+                                id="education"
+                                name="category"
+                                (change)="onCategoryChange()"
+                                [(ngModel)]="selectedCategory"
+                                value="Education"
+                              />
+                              <label class="btn btn-outline-dark btn-sm tc-btn-radio m-2 form-check-label" for="education">
+                                <i class="fa-solid fa-person-chalkboard"></i>
+                                Education
+                              </label>
+                            </div>
+                            
+                            <!-- Information Technology -->
+                            <div class="d-inline-flex">
+                                <input
+                                type="radio"
+                                class="btn-check ml-3"
+                                style="scale: 1.3;"
+                                id="information-technology"
+                                name="category"
+                                (change)="onCategoryChange()"
+                                [(ngModel)]="selectedCategory"
+                                value="Information Technology"
+                                />
+                                <label class="btn btn-outline-dark btn-sm tc-btn-radio m-2 form-check-label" for="information-technology">
+                                    <i class="fa-solid fa-computer"></i>
+                                    Information Technology
+                                </label>
+                            </div>
+
+                            <div class="d-inline-flex">
+                                <!-- Construction -->
+                                <input
+                                type="radio"
+                                class="btn-check ml-3"
+                                style="scale: 1.3;"
+                                id="construction"
+                                name="category"
+                                (change)="onCategoryChange()"
+                                [(ngModel)]="selectedCategory"
+                                value="Construction"
+                                />
+                                <label class="btn btn-outline-dark btn-sm tc-btn-radio m-2 form-check-label" for="construction">
+                                    <i class="fa-solid fa-helmet-safety"></i>
+                                    Construction
+                                </label>
+                            </div>
+
+                            <div class="d-inline-flex">
+                                <!-- Legal Studies -->
+                                <input
+                                type="radio"
+                                class="btn-check ml-3"
+                                style="scale: 1.3;"
+                                id="legal-studies"
+                                name="category"
+                                (change)="onCategoryChange()"
+                                [(ngModel)]="selectedCategory"
+                                value="Legal Studies"
+                                />
+                                <label class="btn btn-outline-dark btn-sm tc-btn-radio m-2 form-check-label" for="legal-studies">
+                                    <i class="fa-solid fa-gavel"></i>
+                                    Legal Studies
+                                </label>
+                            </div>
+
+                            <div class="d-inline-flex">
+                                <!-- Business & Economics -->
+                                <input
+                                type="radio"
+                                class="btn-check ml-3"
+                                style="scale: 1.3;"
+                                id="business-economics"
+                                name="category"
+                                (change)="onCategoryChange()"
+                                [(ngModel)]="selectedCategory"
+                                value="Business and Economics"
+                                />
+                                <label class="btn btn-outline-dark btn-sm tc-btn-radio m-2 form-check-label" for="business-economics">
+                                    <i class="fa-solid fa-money-bill-trend-up"></i>
+                                    Business & Economics
+                                </label>
+                            </div>
+
+                            <div class="d-inline-flex">
+                                <!-- Healthcare -->
+                                <input
+                                type="radio"
+                                class="btn-check ml-3"
+                                style="scale: 1.3;"
+                                id="healthcare"
+                                name="category"
+                                (change)="onCategoryChange()"
+                                [(ngModel)]="selectedCategory"
+                                value="Healthcare"
+                                />
+                                <label class="btn btn-outline-dark btn-sm tc-btn-radio m-2 form-check-label" for="healthcare">
+                                    <i class="fa-solid fa-user-doctor"></i>
+                                    Healthcare
+                                </label>
+                            </div>
+
+                            <div class="d-inline-flex">
+                                <!-- Transportation -->
+                                <input
+                                type="radio"
+                                class="btn-check ml-3"
+                                style="scale: 1.3;"
+                                id="transportation"
+                                name="category"
+                                (change)="onCategoryChange()"
+                                [(ngModel)]="selectedCategory"
+                                value="Transportation"
+                                />
+                                <label class="btn btn-outline-dark btn-sm tc-btn-radio m-2 form-check-label" for="transportation">
+                                    <i class="fa-solid fa-car"></i>
+                                    Transportation
+                                </label>
+                            </div>
+
+
+                            <div class="d-inline-flex">
+                                <!-- Social Sciences -->
+                                <input
+                                type="radio"
+                                class="btn-check ml-3"
+                                style="scale: 1.3;"
+                                id="social-sciences"
+                                name="category"
+                                (change)="onCategoryChange()"
+                                [(ngModel)]="selectedCategory"
+                                value="Social Sciences"
+                                />
+                                <label class="btn btn-outline-dark btn-sm tc-btn-radio m-2 form-check-label" for="social-sciences">
+                                    <i class="fa-solid fa-book-bible"></i>
+                                    Social Sciences
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+                  </div>
+                
+                  <!-- <div class="row">
+                    <div class="col-md-12">
+                      <div class="alert alert-danger" role="alert" *ngIf="!selectedCategory">
+                        Please select an industry domain.
+                      </div>
+                    </div>
+                  </div> -->
+
+                  <div class="row">
+                    <div class="col-md-12">
+                        <p>Your Domain: <strong>{{selectedCategory}}</strong></p>
+                    </div>
+                  </div>
+
+                <p class="pt-4" style="border-top: 1px solid #f55e61;">
+                    <strong>2. Visit the Privacy Policies:</strong> <br>
+                    <span>Go through the privacy policies in the order of the shapes assigned to you.</span>
+                </p>
+
+                <!-- Privacy Policy -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center">
+
+                        <button 
+                            type="button" 
+                            class="btn btn-outline-dark font-weight-bold tc-btn-back m-2 px-4"
+                            (click)="onPolicyLink('c')"
+                            >
+                            <i class="fa-solid fa-circle mx-1"></i>
+                            Policy
+                        </button>
+
+                        <button 
+                            type="button" 
+                            class="btn btn-outline-dark font-weight-bold tc-btn-back m-2 px-4"
+                            (click)="onPolicyLink('s')"
+                            >
+                            <i class="fa-solid fa-square mx-1"></i>
+                            Policy
+                        </button>
+
+                        <button 
+                            type="button" 
+                            class="btn btn-outline-dark font-weight-bold tc-btn-back m-2 px-4"
+                            (click)="onPolicyLink('t')"
+                            >
+                            <i class="fa-solid fa-play mx-1"></i>
+                            Policy
+                        </button>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center tc-info1">
+                <p class="tc-heading1">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <span class="text-dark"> Click Next Only After Reviewing All The Three Privacy Policies</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Next Button -->
+        <div class="tc-btn1 text-center">
+            <button 
+            type="button" 
+            class="btn btn-danger px-4"
+            (click)="onInternalLink('/post-survey')"
+            >
+                Next
+            </button>
+        </div>
+
+    </div>
+    
+</section>
+<!-- Consent And Demographic Section -->

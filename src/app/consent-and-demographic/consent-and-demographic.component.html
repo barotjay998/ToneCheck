@@ -1,0 +1,98 @@
+<div class="container-fluid back-btn-container">
+    <div class="row">
+        <div class="col-md-12">
+            <button 
+                type="button" 
+                class="btn tc-btn-back btn-outline-dark btn-sm"
+                (click)="onInternalLink('/home')"
+            >
+                <i class="fa-solid fa-angles-left"></i>
+                <span class="px-4 font-weight-bold">
+                    <i class="fa-solid fa-house-chimney"></i>
+                        Home
+                </span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Consent And Demographic Section -->
+<section id="consent-and-demographic" class="d-flex align-items-center" style="min-height: 80vh">
+
+    <div class="container-fluid">
+
+        <div class="row justify-content-center mb-3">
+            <div 
+                class="col-md-2
+                text-center
+                text-md-right"
+            >
+                <label class="tc-label px-4 text-center">
+                    Step One:
+                </label>
+            </div>
+
+            <div 
+                class="col-md-6
+                text-center
+                text-md-left
+                tc-heading1
+                tc-sub-heading
+                align-self-center
+                "
+            >
+                <p>
+                    Consent and Demographic Information
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center tc-info1 h6">
+                <p>
+                    Please proceed by clicking on the Google Form link provided below to 
+                    complete the consent and demographic information.
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-3 mb-4">
+            <div class="col-md-3 text-center">
+                <a 
+                    href="https://forms.gle/9Z6Z1Z6Z6Z6Z6Z6Z6" 
+                    target="_blank"
+                    class="btn btn-outline-primary px-4 tc-form-btn"
+                >
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-solid fa-rectangle-list mx-1"></i>
+                    <span class="mx-2">
+                        Open
+                    </span>
+                
+                </a>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center tc-info1 h6">
+                <p>
+                    Click next once you have completed the consent and demographic information.
+                </p>
+            </div>
+        </div>
+
+        <!-- Next Button -->
+        <div class="tc-btn1 text-center">
+            <button 
+                type="button" 
+                class="btn btn-danger px-4"
+                (click)="onInternalLink('/niche-and-privacy-policies')"
+            >
+                Next
+            </button>
+        </div>
+
+    </div>
+    
+</section>
+<!-- Consent And Demographic Section -->
