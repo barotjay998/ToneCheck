@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy} from '@angular/core';
+import { Component, OnInit, OnDestroy, HostListener} from '@angular/core';
 import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 import { DataServiceService } from '../services/data-service.service';
 import { interval, Subscription } from 'rxjs';
@@ -15,9 +15,17 @@ export class PolicyComponent implements OnInit, OnDestroy {
   categories: string[] = ['education', 'information-technology', 'construction', 
   'legal-studies', 'business-and-economics', 'healthcare', 'transportation', 'social-sciences'];
 
+  shape: any;
+
   countdown: number = 60; // Initial countdown time in seconds
   isBtnDisabled: boolean = false; // Initialize the button disable state
   private countdownSubscription: Subscription | undefined; // Countdown subscription
+
+  @HostListener('window:popstate', ['$event'])
+  onPopState(event: any): void {
+    // Prevent the default behavior of the back button
+    window.history.forward();
+  }
 
   constructor(
     private router: Router,
@@ -32,11 +40,33 @@ export class PolicyComponent implements OnInit, OnDestroy {
     });
 
     this.loadPolicyData();
-
+    this.loadShapeData();
     this.startCountdown();
   }
 
   policyData: any = {};
+
+  loadShapeData() {
+
+    if (this.policyId == 'c') {
+      this.shape =  {
+        name: 'Circle',
+        icon: 'fa-solid fa-circle mx-1'
+      };
+    } else if (this.policyId == 's') {
+      this.shape =  {
+        name: 'Square',
+        icon: 'fa-solid fa-square mx-1'
+      };
+    } else if (this.policyId == 't') {
+      this.shape =  {
+        name: 'Triangle',
+        icon: 'fa-solid fa-play mx-1'
+      };
+    }
+
+  }
+
 
   loadPolicyData() {
 
