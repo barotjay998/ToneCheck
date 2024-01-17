@@ -85,14 +85,15 @@ to use the prefix "tc" (for tone-check) that indicates the project name.
 }
 
 .tc-form-btn {
-    color: rgb(103, 58, 183);
+    color: white;
     border-color: rgb(103, 58, 183);
+    background-color: rgb(103, 58, 183);
 }
 
 .tc-form-btn:hover {
-    color: white;
-    background-color: rgb(103, 58, 183);
+    color: rgb(103, 58, 183);
     border-color: rgb(103, 58, 183);
+    background-color: white;
 }
 
 .tc-btn-back {

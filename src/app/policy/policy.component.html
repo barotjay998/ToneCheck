@@ -1,9 +1,10 @@
 <div class="container-fluid back-btn-container">
-    <div class="row">
-        <div class="col-md-12">
+    <div class="row justify-content-around">
+        <div class="col-md-10">
             <button 
+                [disabled]="!isBtnDisabled"
                 type="button" 
-                class="btn tc-btn-back btn-outline-dark btn-sm"
+                class="btn btn-outline-danger btn-sm"
                 (click)="onBackBtn('/niche-and-privacy-policies')"
             >
                 <i class="fa-solid fa-angles-left"></i>
@@ -21,12 +22,15 @@
 
         <div class="row justify-content-center">
             <div class="col-md-10 text-center tc-heading1">
-                <p> 
-                    Kindly review the provided privacy policy, 
-                    and go back when you have completed your examination.
+                <p>Time remaining: {{ countdown }} seconds</p>
+                <p class="font-weight-light"> 
+                    Kindly examine the provided privacy policy for atleast <span class="font-weight-bold">1 minute</span>.
+                    <br>
+                    <span class="font-weight-bold">Back</span> button will be enabled after 1 minute.
                 </p>
             </div>
         </div>
+
         <div class="row justify-content-center">
             <div class="col-md-10 tc-policy-box py-4">
 
@@ -97,11 +101,12 @@
 </section>
 
 <div class="container-fluid mb-4">
-    <div class="row">
-        <div class="col-md-12">
+    <div class="row justify-content-around">
+        <div class="col-md-10">
             <button 
+                [disabled]="!isBtnDisabled"
                 type="button" 
-                class="btn tc-btn-back btn-outline-dark btn-sm"
+                class="btn btn-outline-danger btn-md"
                 (click)="onBackBtn('/niche-and-privacy-policies')"
             >
                 <i class="fa-solid fa-angles-left"></i>

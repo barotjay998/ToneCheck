@@ -12,6 +12,34 @@ export class NicheAndPrivacyPoliciesComponent {
   categoryId: string = 'default';
   categories: string[] = ['education', 'information-technology', 'construction', 'legal-studies', 'business-and-economics', 'healthcare', 'transportation', 'social-sciences'];
 
+  // To keep track of which privacy policy is shown
+  isShownCircle = false;
+  isShownSquare = false;
+  isShownTriangle = false;
+
+  isGoNextButtonDisabled = true;
+
+  buttons: any[] = [
+    {
+      icon: 'fa-solid fa-circle mx-1',
+      label: 'Policy',
+      onClick: () => this.onPolicyLink('c'),
+      disabled: this.getFromLocalStorage('isShownCircle', this.isShownCircle)
+    },
+    {
+      icon: 'fa-solid fa-square mx-1',
+      label: 'Policy',
+      onClick: () => this.onPolicyLink('s'),
+      disabled: this.getFromLocalStorage('isShownSquare', this.isShownSquare)
+    },
+    {
+      icon: 'fa-solid fa-play mx-1',
+      label: 'Policy',
+      onClick: () => this.onPolicyLink('t'),
+      disabled: this.getFromLocalStorage('isShownTriangle', this.isShownTriangle)
+    }
+  ];
+
   constructor(
     private router: Router,
     private route: ActivatedRoute
@@ -24,8 +52,12 @@ export class NicheAndPrivacyPoliciesComponent {
       if (categoryId && this.categories.includes(categoryId)) {
         this.categorySelected(categoryId);
       }
-
     });
+
+    // Shuffle the buttons array to randomize their order
+    this.shuffleArray(this.buttons);
+
+    this.isGoNextButtonDisabled = !this.isGoNext();
   }
 
   categorySelected(categoryId: string) {
@@ -71,6 +103,20 @@ export class NicheAndPrivacyPoliciesComponent {
       return;
     }
 
+    // Change the isShown property of the policy that was clicked
+    if (policyId === 'c') {
+      this.isShownCircle = true;
+      localStorage.setItem('isShownCircle', JSON.stringify(this.isShownCircle));
+    }
+    else if (policyId === 's') {
+      this.isShownSquare = true;
+      localStorage.setItem('isShownSquare', JSON.stringify(this.isShownSquare));
+    }
+    else if (policyId === 't') {
+      this.isShownTriangle = true;
+      localStorage.setItem('isShownTriangle', JSON.stringify(this.isShownTriangle));
+    }
+
     this.router.navigate(['/policy', this.categoryId, policyId]);
   }
 
@@ -103,4 +149,34 @@ export class NicheAndPrivacyPoliciesComponent {
     
   }
 
+  // Function to shuffle an array randomly
+  shuffleArray(array: any[]): void {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+  }
+
+  // Function that gets a value from the local storage 
+  // and sets it to a default value if it doesn't exist
+  private getFromLocalStorage(key: string, defaultValue: boolean): boolean {
+    const storedValue = localStorage.getItem(key);
+    if (storedValue !== null) {
+      return JSON.parse(storedValue);
+    } else {
+      localStorage.setItem(key, JSON.stringify(defaultValue));
+      return defaultValue;
+    }
+  }
+
+  isGoNext() {
+    if (this.getFromLocalStorage('isShownCircle', this.isShownCircle) && 
+        this.getFromLocalStorage('isShownSquare', this.isShownSquare) && 
+        this.getFromLocalStorage('isShownTriangle', this.isShownTriangle)) 
+      {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }

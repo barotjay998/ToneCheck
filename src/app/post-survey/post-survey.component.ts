@@ -16,4 +16,10 @@ export class PostSurveyComponent {
     this.router.navigate([linkUri]);
   }
 
+  isFormSubmitted = false;
+
+  onSubmit() {
+    this.isFormSubmitted = true;
+  }
+
 }

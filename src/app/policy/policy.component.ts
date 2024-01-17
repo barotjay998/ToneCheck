@@ -1,23 +1,28 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, OnDestroy} from '@angular/core';
 import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 import { DataServiceService } from '../services/data-service.service';
+import { interval, Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-policy',
   templateUrl: './policy.component.html',
   styleUrls: ['./policy.component.css']
 })
-export class PolicyComponent {
+export class PolicyComponent implements OnInit, OnDestroy {
 
   categoryId: string = '';
   policyId: string = '';
   categories: string[] = ['education', 'information-technology', 'construction', 
   'legal-studies', 'business-and-economics', 'healthcare', 'transportation', 'social-sciences'];
 
+  countdown: number = 60; // Initial countdown time in seconds
+  isBtnDisabled: boolean = false; // Initialize the button disable state
+  private countdownSubscription: Subscription | undefined; // Countdown subscription
+
   constructor(
     private router: Router,
     private route: ActivatedRoute,
-    private dataService: DataServiceService,
+    private dataService: DataServiceService
   ) { }
 
   ngOnInit() {
@@ -27,6 +32,8 @@ export class PolicyComponent {
     });
 
     this.loadPolicyData();
+
+    this.startCountdown();
   }
 
   policyData: any = {};
@@ -99,6 +106,22 @@ export class PolicyComponent {
   onBackBtn(linkUri: string) {
     let cId = this.categoryId ? this.categoryId : 'default';
     this.router.navigate([linkUri, {categoryId: cId}]);
+  }
+
+  ngOnDestroy(): void {
+    if (this.countdownSubscription) {
+      this.countdownSubscription.unsubscribe();
+    }
+  }
+
+  startCountdown(): void {
+    this.countdownSubscription = interval(1000).subscribe(() => {
+      if (this.countdown > 0) {
+        this.countdown--;
+      } else {
+        this.isBtnDisabled = true; // Countdown is complete, disable the button
+      }
+    });
   }
 
 }

@@ -17,5 +17,10 @@ export class ConsentAndDemographicComponent {
     this.router.navigate([linkUri]);
   }
 
+  isFormSubmitted = false;
+
+  onSubmit() {
+    this.isFormSubmitted = true;
+  }
 
 }

@@ -29,7 +29,7 @@
         </div>
 
         <div class="row justify-content-center mb-3">
-            <div 
+            <!-- <div 
                 class="col-md-3
                 text-center
                 text-md-right"
@@ -37,10 +37,10 @@
                 <label class="tc-label px-4 text-center">
                     Step Two:
                 </label>
-            </div>
+            </div> -->
 
             <div 
-                class="col-md-3
+                class="col-md-10
                 text-center
                 text-md-left
                 tc-heading1
@@ -48,18 +48,23 @@
                 align-self-center
                 "
             >
-                <p>
-                    Privacy Policies
+                <p class="text-center">
+                    <u>STEP 2/3</u>: <span class="font-weight-light">Privacy Policies</span>
                 </p>
             </div>
         </div>
 
         <div class="row justify-content-center">
             <div class="col-md-8 text-left tc-info1 h6">
-                <p>
+                <!-- <p>
                     You've been assigned a sequence of shapes: Circle <i class="fa-solid fa-circle tc-color-primary"></i>, 
                     Square <i class="fa-solid fa-square tc-color-primary"></i>, Triangle <i class="fa-solid fa-play tc-color-primary"></i>. 
                     Each shape corresponds to a privacy policy link below. Please follow these steps:   
+                </p> -->
+                <p>
+                    You are presented with <b>THREE</b> different versions of privacy policies represented by the three shapes:
+                    Circle <i class="fa-solid fa-circle tc-color-primary"></i>, Square <i class="fa-solid fa-square tc-color-primary"></i> and
+                    Triangle <i class="fa-solid fa-play tc-color-primary"></i>. You have to carefully glance through each privacy policy.
                 </p>
             </div>
         </div>
@@ -68,7 +73,7 @@
         <div class="row justify-content-center mb-4 mx-2">
             <div class="col-md-8 tc-dashed-box">
                 <p>
-                    <strong>1. Choose Your Industry:</strong> <br>
+                    <strong>Step 1. Choose Your Industry:</strong> <br>
                     <span>Select the industry domain you work in</span>
                 </p>
                 
@@ -240,15 +245,26 @@
                   </div>
 
                 <p class="pt-4" style="border-top: 1px solid #f55e61;">
-                    <strong>2. Visit the Privacy Policies:</strong> <br>
-                    <span>Glance through the privacy policies in the order of the shapes assigned to you.</span>
+                    <strong>Step 2. Visit the Privacy Policies:</strong> <br>
+                    <span>Inspect a privacy policy and return to this page.</span>
                 </p>
 
                 <!-- Privacy Policy -->
                 <div class="row justify-content-center">
                     <div class="col-lg-10 text-center">
 
-                        <button 
+                        <button
+                            *ngFor="let button of buttons"
+                            type="button"
+                            class="btn btn-outline-danger font-weight-bold m-2 px-4"
+                            [disabled]="button.disabled"
+                            (click)="button.onClick()"
+                        >
+                            <i [class]="button.icon"></i>
+                            {{ button.label }}
+                        </button>
+
+                        <!-- <button 
                             type="button" 
                             class="btn btn-outline-dark font-weight-bold tc-btn-back m-2 px-4"
                             (click)="onPolicyLink('c')"
@@ -273,7 +289,7 @@
                             >
                             <i class="fa-solid fa-play mx-1"></i>
                             Policy
-                        </button>
+                        </button> -->
 
                     </div>
                 </div>
@@ -286,7 +302,7 @@
             <div class="col-md-8 text-center tc-info1">
                 <p class="tc-heading1">
                     <i class="fa-solid fa-triangle-exclamation"></i>
-                    <span class="text-dark"> Click Next Only After Reviewing All The Three Privacy Policies</span>
+                    <span class="text-dark"> You can go to the Final Step only after you have inspected all Three Pivacy Policies</span>
                 </p>
             </div>
         </div>
@@ -296,9 +312,10 @@
             <button 
             type="button" 
             class="btn btn-danger px-4"
+            [disabled]="isGoNextButtonDisabled"
             (click)="onInternalLink('/post-survey')"
             >
-                Next
+                Go to Final Step
             </button>
         </div>
 
