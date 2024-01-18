@@ -64,28 +64,28 @@ export class NicheAndPrivacyPoliciesComponent {
     this.categoryId = categoryId;
 
     if (categoryId === 'education') {
-      this.selectedCategory = 'Education';
+      this.selectedCategory = 'Education & Training';
     }
     else if (categoryId === 'information-technology') {
-      this.selectedCategory = 'Information Technology';
+      this.selectedCategory = 'Software & IT';
     }
     else if (categoryId === 'construction') {
-      this.selectedCategory = 'Construction';
+      this.selectedCategory = 'Engineering';
     }
     else if (categoryId === 'legal-studies') {
-      this.selectedCategory = 'Legal Studies';
+      this.selectedCategory = 'Juridical Sciences (Law)';
     }
     else if (categoryId === 'business-and-economics') {
-      this.selectedCategory = 'Business and Economics';
+      this.selectedCategory = 'Banking & Financial';
     }
     else if (categoryId === 'healthcare') {
       this.selectedCategory = 'Healthcare';
     }
     else if (categoryId === 'transportation') {
-      this.selectedCategory = 'Transportation';
+      this.selectedCategory = 'Retail, Wholesale & Distribution';
     }
     else if (categoryId === 'social-sciences') {
-      this.selectedCategory = 'Social Sciences';
+      this.selectedCategory = 'Non-Profit';
     }
     else {
       this.selectedCategory = '';
@@ -122,28 +122,28 @@ export class NicheAndPrivacyPoliciesComponent {
 
   onCategoryChange() {
 
-    if (this.selectedCategory === 'Education') {
+    if (this.selectedCategory === 'Education & Training') {
       this.categoryId = 'education';
     }
-    else if (this.selectedCategory === 'Information Technology') {
+    else if (this.selectedCategory === 'Software & IT') {
       this.categoryId = 'information-technology';
     }
-    else if (this.selectedCategory === 'Construction') {
+    else if (this.selectedCategory === 'Engineering') {
       this.categoryId = 'construction';
     }
-    else if (this.selectedCategory === 'Legal Studies') {
+    else if (this.selectedCategory === 'Juridical Sciences (Law)') {
       this.categoryId = 'legal-studies';
     }
-    else if (this.selectedCategory === 'Business and Economics') {
+    else if (this.selectedCategory === 'Banking & Financial') {
       this.categoryId = 'business-and-economics';
     }
     else if (this.selectedCategory === 'Healthcare') {
       this.categoryId = 'healthcare';
     }
-    else if (this.selectedCategory === 'Transportation') {
+    else if (this.selectedCategory === 'Retail, Wholesale & Distribution') {
       this.categoryId = 'transportation';
     }
-    else if (this.selectedCategory === 'Social Sciences') {
+    else if (this.selectedCategory === 'Non-Profit') {
       this.categoryId = 'social-sciences';
     }
     
