@@ -1,0 +1,204 @@
+
+<section id="niche-and-privacy-policy" class="d-flex align-items-center mb-4" style="min-height: 100vh">
+
+    <div class="container-fluid">
+
+<div class="row justify-content-center mb-4 mx-2">
+    <div class="col-md-8 tc-dashed-box">
+        <p class="text-center pt-4 mb-2 h3">
+            <span>Please select the <b>Job Function/Employment Industry</b> domain that belong to you</span>
+        </p>
+        
+        <!-- Industry Buttons -->
+        <div class="row justify-content-center mb-4 pt-4" style="border-top: 1px solid #757575;">
+            <div class="col-lg-11 text-center">
+                <div class="btn-group d-inline-flex flex-wrap">
+                    <!-- Education -->
+                    <div class="d-inline-flex">
+                        <input
+                        type="radio"
+                        class="btn-check ml-3"
+                        style="scale: 1.3;"
+                        id="education"
+                        name="category"
+                        (change)="onCategoryChange()"
+                        [(ngModel)]="selectedCategory"
+                        value="Education & Training"
+                      />
+                      <label class="btn btn-outline-dark btn-sm tc-btn-radio m-2 form-check-label" for="education">
+                        <i class="fa-solid fa-person-chalkboard"></i>
+                        Education & Training
+                      </label>
+                    </div>
+                    
+                    <!-- Information Technology -->
+                    <div class="d-inline-flex">
+                        <input
+                        type="radio"
+                        class="btn-check ml-3"
+                        style="scale: 1.3;"
+                        id="information-technology"
+                        name="category"
+                        (change)="onCategoryChange()"
+                        [(ngModel)]="selectedCategory"
+                        value="Software & IT"
+                        />
+                        <label class="btn btn-outline-dark btn-sm tc-btn-radio m-2 form-check-label" for="information-technology">
+                            <i class="fa-solid fa-computer"></i>
+                            Software & IT
+                        </label>
+                    </div>
+
+                    <div class="d-inline-flex">
+                        <!-- Construction -->
+                        <input
+                        type="radio"
+                        class="btn-check ml-3"
+                        style="scale: 1.3;"
+                        id="construction"
+                        name="category"
+                        (change)="onCategoryChange()"
+                        [(ngModel)]="selectedCategory"
+                        value="Engineering"
+                        />
+                        <label class="btn btn-outline-dark btn-sm tc-btn-radio m-2 form-check-label" for="construction">
+                            <i class="fa-solid fa-helmet-safety"></i>
+                            Engineering
+                        </label>
+                    </div>
+
+                    <div class="d-inline-flex">
+                        <!-- Legal Studies -->
+                        <input
+                        type="radio"
+                        class="btn-check ml-3"
+                        style="scale: 1.3;"
+                        id="legal-studies"
+                        name="category"
+                        (change)="onCategoryChange()"
+                        [(ngModel)]="selectedCategory"
+                        value="Juridical Sciences (Law)"
+                        />
+                        <label class="btn btn-outline-dark btn-sm tc-btn-radio m-2 form-check-label" for="legal-studies">
+                            <i class="fa-solid fa-gavel"></i>
+                            Juridical Sciences (Law)
+                        </label>
+                    </div>
+
+                    <div class="d-inline-flex">
+                        <!-- Business & Economics -->
+                        <input
+                        type="radio"
+                        class="btn-check ml-3"
+                        style="scale: 1.3;"
+                        id="business-economics"
+                        name="category"
+                        (change)="onCategoryChange()"
+                        [(ngModel)]="selectedCategory"
+                        value="Banking & Financial"
+                        />
+                        <label class="btn btn-outline-dark btn-sm tc-btn-radio m-2 form-check-label" for="business-economics">
+                            <i class="fa-solid fa-money-bill-trend-up"></i>
+                            Banking & Financial
+                        </label>
+                    </div>
+
+                    <div class="d-inline-flex">
+                        <!-- Healthcare -->
+                        <input
+                        type="radio"
+                        class="btn-check ml-3"
+                        style="scale: 1.3;"
+                        id="healthcare"
+                        name="category"
+                        (change)="onCategoryChange()"
+                        [(ngModel)]="selectedCategory"
+                        value="Healthcare"
+                        />
+                        <label class="btn btn-outline-dark btn-sm tc-btn-radio m-2 form-check-label" for="healthcare">
+                            <i class="fa-solid fa-user-doctor"></i>
+                            Healthcare
+                        </label>
+                    </div>
+
+                    <div class="d-inline-flex">
+                        <!-- Transportation -->
+                        <input
+                        type="radio"
+                        class="btn-check ml-3"
+                        style="scale: 1.3;"
+                        id="transportation"
+                        name="category"
+                        (change)="onCategoryChange()"
+                        [(ngModel)]="selectedCategory"
+                        value="Retail, Wholesale & Distribution"
+                        />
+                        <label class="btn btn-outline-dark btn-sm tc-btn-radio m-2 form-check-label" for="transportation">
+                            <i class="fa-solid fa-car"></i>
+                            Retail, Wholesale & Distribution
+                        </label>
+                    </div>
+
+
+                    <div class="d-inline-flex">
+                        <!-- Social Sciences -->
+                        <input
+                        type="radio"
+                        class="btn-check ml-3"
+                        style="scale: 1.3;"
+                        id="social-sciences"
+                        name="category"
+                        (change)="onCategoryChange()"
+                        [(ngModel)]="selectedCategory"
+                        value="Non-Profit"
+                        />
+                        <label class="btn btn-outline-dark btn-sm tc-btn-radio m-2 form-check-label" for="social-sciences">
+                            <i class="fa-solid fa-book-bible"></i>
+                            Non-Profit
+                        </label>
+                    </div>
+
+                    <div class="d-inline-flex">
+                        <!-- Social Sciences -->
+                        <input
+                        type="radio"
+                        class="btn-check ml-3"
+                        style="scale: 1.3;"
+                        id="none-of-the-above"
+                        name="category"
+                        (change)="onCategoryChange()"
+                        [(ngModel)]="selectedCategory"
+                        value="None of the above"
+                        />
+                        <label class="btn btn-outline-dark btn-sm tc-btn-radio m-2 form-check-label" for="none-of-the-above">
+                            None of the above
+                        </label>
+                    </div>
+
+                </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+                <p>Your Domain: <strong>{{selectedCategory}}</strong></p>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <button 
+                    type="button" 
+                    class="btn btn-danger btn-lg"
+                    [disabled]="selectedCategory === ''"
+                    (click)="onSubmit()"
+                    >
+                    Next
+                </button>
+            </div>
+         </div>
+    </div>
+
+</div>
+</div>
+</section>

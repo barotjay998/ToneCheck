@@ -34,6 +34,8 @@ export class PolicyComponent implements OnInit, OnDestroy {
   ) { }
 
   ngOnInit() {
+    this.checkLocalStorageAndCloseTab();
+    
     this.route.paramMap.subscribe((params: ParamMap) => {
       this.categoryId = params.get('domainId')!;
       this.policyId = params.get('policyId')!;
@@ -152,6 +154,14 @@ export class PolicyComponent implements OnInit, OnDestroy {
         this.isBtnDisabled = true; // Countdown is complete, disable the button
       }
     });
+  }
+
+  checkLocalStorageAndCloseTab(): void {
+    const value = localStorage.getItem('ps');
+
+    if (value === 'true') {
+      this.router.navigate(['/not-eligible']);
+    }
   }
 
 }

@@ -46,6 +46,9 @@ export class NicheAndPrivacyPoliciesComponent {
   ) { }
 
   ngOnInit() {
+
+    this.checkLocalStorageAndCloseTab();
+    
     this.route.paramMap.subscribe((params: ParamMap) => {
       let categoryId = params.get('categoryId')!;
 
@@ -177,6 +180,14 @@ export class NicheAndPrivacyPoliciesComponent {
       return true;
     } else {
       return false;
+    }
+  }
+
+  checkLocalStorageAndCloseTab(): void {
+    const value = localStorage.getItem('ps');
+
+    if (value === 'true') {
+      this.router.navigate(['/not-eligible']);
     }
   }
 }

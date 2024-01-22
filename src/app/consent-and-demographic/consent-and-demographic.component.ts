@@ -13,6 +13,10 @@ export class ConsentAndDemographicComponent {
     private router: Router,
   ) { }
 
+  ngOnInit() {
+    this.checkLocalStorageAndCloseTab();
+  }
+
   onInternalLink(linkUri: string) {
     this.router.navigate([linkUri]);
   }
@@ -21,6 +25,14 @@ export class ConsentAndDemographicComponent {
 
   onSubmit() {
     this.isFormSubmitted = true;
+  }
+
+  checkLocalStorageAndCloseTab(): void {
+    const value = localStorage.getItem('ps');
+
+    if (value === 'true') {
+      this.router.navigate(['/not-eligible']);
+    }
   }
 
 }

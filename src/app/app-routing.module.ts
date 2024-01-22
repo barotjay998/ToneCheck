@@ -6,6 +6,8 @@ import { ConsentAndDemographicComponent } from './consent-and-demographic/consen
 import { PostSurveyComponent } from './post-survey/post-survey.component';
 import { NicheAndPrivacyPoliciesComponent } from './niche-and-privacy-policies/niche-and-privacy-policies.component';
 import { PolicyComponent } from './policy/policy.component';
+import { PrescreeningComponent } from './prescreening/prescreening.component';
+import { NotEligibleComponent } from './not-eligible/not-eligible.component';
 
 const routes: Routes = [
   { path: '', redirectTo : '/home', pathMatch: 'full' },
@@ -49,6 +51,22 @@ const routes: Routes = [
       title: "Step 3"
     }
   },
+  {
+    path: 'prescreening',
+    component: PrescreeningComponent,
+    data: {
+      metaDescription: "",
+      title: "Prescreening"
+    }
+  },
+  {
+    path: 'not-eligible',
+    component: NotEligibleComponent,
+    data: {
+      metaDescription: "",
+      title: "Not Eligible"
+    }
+  },
   { 
     path: '**', 
     component: PageNotFoundComponent,
@@ -70,5 +88,6 @@ export const routingComponents = [
   ConsentAndDemographicComponent,
   PostSurveyComponent,
   NicheAndPrivacyPoliciesComponent,
-  PolicyComponent
+  PolicyComponent,
+  PrescreeningComponent
 ];

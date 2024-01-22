@@ -12,9 +12,20 @@ export class HomeComponent {
     private router: Router,
   ) { }
 
+  ngOnInit() {
+    this.checkLocalStorageAndCloseTab();
+  }
 
   onInternalLink(linkUri: string) {
     this.router.navigate([linkUri]);
+  }
+
+  checkLocalStorageAndCloseTab(): void {
+    const value = localStorage.getItem('ps');
+
+    if (value === 'true') {
+      this.router.navigate(['/not-eligible']);
+    }
   }
 
 }
