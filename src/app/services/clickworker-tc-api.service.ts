@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class ClickworkerTcApiService {
 
-  private apiUrl = 'http://54.173.156.60'; // Adjust the URL based on your Flask server configuration
+  private apiUrl = 'https://54.173.156.60'; // Adjust the URL based on your Flask server configuration
 
   constructor(private http: HttpClient) { }
 
