@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
+import { SheetsServiceService } from '../services/sheets-service.service';
 
 @Component({
   selector: 'app-prescreening',
@@ -11,9 +13,12 @@ export class PrescreeningComponent {
 
   selectedCategory: string = '';
   categoryId: string = 'default';
+  ipAddress: string = '';
 
   constructor(
-    private router: Router
+    private router: Router,
+    private http: HttpClient,
+    private sheetsService: SheetsServiceService
   ) { }
 
   ngOnInit() {
@@ -87,25 +92,55 @@ export class PrescreeningComponent {
 
   onSubmit() {
 
-    this.checkLocalStorageAndCloseTab();
 
     if (this.categoryId === 'none-of-the-above') {
 
       localStorage.setItem('ps', JSON.stringify(true));
+      // fetch the IP address
+      this.logIp(this.fetchLocalIp());
       this.router.navigate(['/not-eligible']);
 
     } else {
-      this.router.navigate(['/consent-and-demographic']);
+      
+      if (this.checkNotEligible()) {
+        this.router.navigate(['/category-full']);
+      } else {
+        this.router.navigate(['/consent-and-demographic']);
+      }
+      
     }
 
   } 
 
-  checkLocalStorageAndCloseTab(): void {
+  checkNotEligible(): boolean {
     const value = localStorage.getItem('ps');
 
     if (value === 'true') {
-      this.router.navigate(['/not-eligible']);
+      return true;
+
+    } else {
+      return false;
+
     }
+  }
+
+  fetchLocalIp():any {
+    // Fetch the IP address
+    this.http.get<{origin: string}>('https://httpbin.org/ip')
+      .subscribe(response => {
+        this.ipAddress = response.origin;
+        return this.ipAddress;
+      }, error => {
+        console.error('Error fetching IP address:', error);
+      });
+  }
+
+  logIp(ipAddress: string) {
+    this.sheetsService.logIpAddress(ipAddress).subscribe(response => {
+      console.log('IP Address logged', response);
+    }, error => {
+      console.error('Error logging IP Address', error);
+    });
   }
 
 }

@@ -8,6 +8,7 @@ import { NicheAndPrivacyPoliciesComponent } from './niche-and-privacy-policies/n
 import { PolicyComponent } from './policy/policy.component';
 import { PrescreeningComponent } from './prescreening/prescreening.component';
 import { NotEligibleComponent } from './not-eligible/not-eligible.component';
+import { NotEligibleCategoryFullComponent } from './not-eligible-category-full/not-eligible-category-full.component';
 
 const routes: Routes = [
   { path: '', redirectTo : '/home', pathMatch: 'full' },
@@ -65,6 +66,14 @@ const routes: Routes = [
     data: {
       metaDescription: "",
       title: "Not Eligible"
+    }
+  },
+  {
+    path: 'category-full',
+    component: NotEligibleCategoryFullComponent,
+    data: {
+      metaDescription: "",
+      title: "List Full"
     }
   },
   { 
