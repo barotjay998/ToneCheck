@@ -17,7 +17,6 @@ export class PrescreeningComponent {
   ) { }
 
   ngOnInit() {
-    this.checkLocalStorageAndCloseTab();
   }
 
   categorySelected(categoryId: string) {
@@ -26,9 +25,9 @@ export class PrescreeningComponent {
     if (categoryId === 'education') {
       this.selectedCategory = 'Education & Training';
     }
-    else if (categoryId === 'information-technology') {
-      this.selectedCategory = 'Software & IT';
-    }
+    // else if (categoryId === 'information-technology') {
+    //   this.selectedCategory = 'Software & IT';
+    // }
     else if (categoryId === 'construction') {
       this.selectedCategory = 'Engineering';
     }
@@ -60,9 +59,9 @@ export class PrescreeningComponent {
     if (this.selectedCategory === 'Education & Training') {
       this.categoryId = 'education';
     }
-    else if (this.selectedCategory === 'Software & IT') {
-      this.categoryId = 'information-technology';
-    }
+    // else if (this.selectedCategory === 'Software & IT') {
+    //   this.categoryId = 'information-technology';
+    // }
     else if (this.selectedCategory === 'Engineering') {
       this.categoryId = 'construction';
     }
@@ -87,6 +86,8 @@ export class PrescreeningComponent {
   }
 
   onSubmit() {
+
+    this.checkLocalStorageAndCloseTab();
 
     if (this.categoryId === 'none-of-the-above') {
 

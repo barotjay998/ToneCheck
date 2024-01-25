@@ -67,6 +67,7 @@
             <div class="col-md-8 text-center">
                 <a 
                     (click)="onSubmit()"
+                    [class.disabled]="isFormSubmitted"
                     href="https://forms.gle/vUCK74Qr1YS2ECE59" 
                     target="_blank"
                     class="btn btn-lg btn-primary px-4 tc-form-btn"

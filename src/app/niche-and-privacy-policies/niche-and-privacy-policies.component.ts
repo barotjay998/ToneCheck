@@ -10,7 +10,16 @@ export class NicheAndPrivacyPoliciesComponent {
 
   selectedCategory: string = '';
   categoryId: string = 'default';
-  categories: string[] = ['education', 'information-technology', 'construction', 'legal-studies', 'business-and-economics', 'healthcare', 'transportation', 'social-sciences'];
+  categories: string[] = [
+    'education', 
+    // 'information-technology', 
+    'construction', 
+    'legal-studies', 
+    'business-and-economics', 
+    'healthcare', 
+    'transportation', 
+    'social-sciences'
+  ];
 
   // To keep track of which privacy policy is shown
   isShownCircle = false;
@@ -69,9 +78,9 @@ export class NicheAndPrivacyPoliciesComponent {
     if (categoryId === 'education') {
       this.selectedCategory = 'Education & Training';
     }
-    else if (categoryId === 'information-technology') {
-      this.selectedCategory = 'Software & IT';
-    }
+    // else if (categoryId === 'information-technology') {
+    //   this.selectedCategory = 'Software & IT';
+    // }
     else if (categoryId === 'construction') {
       this.selectedCategory = 'Engineering';
     }
@@ -128,9 +137,9 @@ export class NicheAndPrivacyPoliciesComponent {
     if (this.selectedCategory === 'Education & Training') {
       this.categoryId = 'education';
     }
-    else if (this.selectedCategory === 'Software & IT') {
-      this.categoryId = 'information-technology';
-    }
+    // else if (this.selectedCategory === 'Software & IT') {
+    //   this.categoryId = 'information-technology';
+    // }
     else if (this.selectedCategory === 'Engineering') {
       this.categoryId = 'construction';
     }

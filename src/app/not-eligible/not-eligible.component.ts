@@ -14,12 +14,12 @@ export class NotEligibleComponent  {
 
   ngOnInit(): void {
     // Fetch the IP address
-    this.http.get<{origin: string}>('https://httpbin.org/ip')
-      .subscribe(response => {
-        this.ipAddress = response.origin;
-      }, error => {
-        console.error('Error fetching IP address:', error);
-      });
+    // this.http.get<{origin: string}>('https://httpbin.org/ip')
+    //   .subscribe(response => {
+    //     this.ipAddress = response.origin;
+    //   }, error => {
+    //     console.error('Error fetching IP address:', error);
+    //   });
 
   }
 
