@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class SheetsServiceService {
 
-  private googleAppsScriptWebAppUrl = 'https://script.google.com/macros/s/AKfycbwx9D-XhDO3iXMMwrr8ozXeUUfP6qW8mYRy1FuW4l0Q7x3HlYCg_xVQ4RsSLtJiAMeXRQ/exec'; // Replace with your Web App URL
+  private googleAppsScriptWebAppUrl = 'https://script.google.com/macros/s/AKfycbwWAWULtoe-Q8-JcWWeqeb6i35PW-YUh-nbG_awLWlZZSbrSpRHYTQi8fAjQv9PQW7Idw/exec'; // Replace with your Web App URL
 
   constructor(private http: HttpClient) {}
 
