@@ -180,7 +180,11 @@ export class PrescreeningComponent {
     this.sheetsService.checkIfIpExists(ipAddress).subscribe((response: any) => {
         if (response.exists) {
           // console.log('IP Address exists');
-          this.router.navigate(['/category-full']);
+          if (this.categoryId === 'none-of-the-above') {
+            this.router.navigate(['/not-eligible']);
+          } else {
+            this.router.navigate(['/category-full']);
+          }
           resolve(true);
         } else {
           resolve(false);
