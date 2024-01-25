@@ -6,8 +6,6 @@ import { HttpClient } from '@angular/common/http';
 })
 export class SheetsServiceService {
 
-  // private googleAppsScriptWebAppUrl = 'https://script.google.com/macros/s/AKfycbzvVWBKzluaAyWhDZsgL4y-kNPYL9bbjd4VMY6_iEwI1jT7QW5R1jJ071z8JMRwFhz0Ng/exec'; // Replace with your Web App URL
-
   private netlifyFunctionUrl = '/.netlify/functions/log-ip-address'; // Netlify Function endpoint
 
   constructor(private http: HttpClient) {}
@@ -15,6 +13,10 @@ export class SheetsServiceService {
   logIpAddress(ipAddress: string) {
     const data = { IpAddress: ipAddress };
     return this.http.post(this.netlifyFunctionUrl, data);
+  }
+
+  checkIfIpExists(ipAddress: string) {
+    return this.http.get(`/.netlify/functions/check-ip-exists?ipAddress=${ipAddress}`);
   }
 
 }
