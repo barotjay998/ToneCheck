@@ -14,6 +14,7 @@ export class PrescreeningComponent {
   selectedCategory: string = '';
   categoryId: string = 'default';
   ipAddress: string = '';
+  isShowPleaseWait: boolean = false;
 
   constructor(
     private router: Router,
@@ -92,6 +93,9 @@ export class PrescreeningComponent {
   }
 
   async onSubmit() {
+
+    // Show please wait
+    this.isShowPleaseWait = true;
 
     // Check if the IP Address exists, 
     // if it does, we redirect to not-eligible.
