@@ -95,7 +95,7 @@ export class PrescreeningComponent {
   async onSubmit() {
 
     // // Show please wait
-    // this.isShowPleaseWait = true;
+    this.isShowPleaseWait = true;
 
     // // Check if the IP Address exists, 
     // // if it does, we redirect to not-eligible.
