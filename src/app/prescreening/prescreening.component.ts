@@ -99,7 +99,10 @@ export class PrescreeningComponent {
 
     // // Check if the IP Address exists, 
     // // if it does, we redirect to not-eligible.
-    const ipExists = await this.checkIfIpExists(this.ipAddress);
+    const modifiedIpAddress = this.removeLastSubnet(this.ipAddress);
+    console.log(modifiedIpAddress);
+    const ipExists = await this.checkIfIpExists(modifiedIpAddress);
+    console.log(ipExists);
 
     if (ipExists) {
       return;
@@ -107,7 +110,7 @@ export class PrescreeningComponent {
 
     // // If the IP Address does not exist, we log it, before we do anything else, 
     // // Do do it to so that user cannot submit anything else again.
-    await this.logIp(this.ipAddress);
+    await this.logIp(modifiedIpAddress);
 
     // If the user selects 'None of the above', we redirect to not-eligible,
     // and also remember on client side that the user is not eligible. So that
@@ -196,6 +199,20 @@ export class PrescreeningComponent {
     });
     });
   }
+
+  removeLastSubnet(ipAddress: string): string {
+    const ipParts = ipAddress.split('.');
+    if (ipParts.length === 4) {
+        // Remove the last subnet
+        ipParts.pop();
+        // Join the remaining parts
+        return ipParts.join('.');
+    } else {
+        // Handle invalid IP address format
+        throw new Error('Invalid IP address format');
+    }
+
+}
 
 
 }
