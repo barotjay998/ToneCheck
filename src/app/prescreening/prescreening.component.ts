@@ -94,20 +94,20 @@ export class PrescreeningComponent {
 
   async onSubmit() {
 
-    // Show please wait
-    this.isShowPleaseWait = true;
+    // // Show please wait
+    // this.isShowPleaseWait = true;
 
-    // Check if the IP Address exists, 
-    // if it does, we redirect to not-eligible.
-    const ipExists = await this.checkIfIpExists(this.ipAddress);
+    // // Check if the IP Address exists, 
+    // // if it does, we redirect to not-eligible.
+    // const ipExists = await this.checkIfIpExists(this.ipAddress);
 
-    if (ipExists) {
-      return;
-    }
+    // if (ipExists) {
+    //   return;
+    // }
 
-    // If the IP Address does not exist, we log it, before we do anything else, 
-    // Do do it to so that user cannot submit anything else again.
-    await this.logIp(this.ipAddress);
+    // // If the IP Address does not exist, we log it, before we do anything else, 
+    // // Do do it to so that user cannot submit anything else again.
+    // await this.logIp(this.ipAddress);
 
     // If the user selects 'None of the above', we redirect to not-eligible,
     // and also remember on client side that the user is not eligible. So that
