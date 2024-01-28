@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { SheetsServiceService } from '../services/sheets-service.service';
 
 @Component({
   selector: 'app-post-survey',
@@ -8,12 +9,17 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class PostSurveyComponent {
 
+  categoryId: any = 'default';
+
   constructor(
     private router: Router,
+    private sheetService: SheetsServiceService,
   ) { }
 
   ngOnInit() {
     this.checkLocalStorageAndCloseTab();
+
+    this.categoryId = localStorage.getItem('category');
   }
 
   onInternalLink(linkUri: string) {
@@ -24,7 +30,12 @@ export class PostSurveyComponent {
 
   onSubmit() {
     this.isFormSubmitted = true;
+
+    this.sheetService.postCategory(this.categoryId).subscribe(response => {
+      // console.log('Category posted', response);
+    });
   }
+
 
   checkLocalStorageAndCloseTab(): void {
     const value = localStorage.getItem('ps');

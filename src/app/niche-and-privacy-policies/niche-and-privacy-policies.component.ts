@@ -11,7 +11,7 @@ export class NicheAndPrivacyPoliciesComponent {
   selectedCategory: string = '';
   categoryId: string = 'default';
   categories: string[] = [
-    'education', 
+    // 'education', 
     // 'information-technology', 
     'construction', 
     'legal-studies', 
@@ -75,13 +75,13 @@ export class NicheAndPrivacyPoliciesComponent {
   categorySelected(categoryId: string) {
     this.categoryId = categoryId;
 
-    if (categoryId === 'education') {
-      this.selectedCategory = 'Education & Training';
-    }
+    // if (categoryId === 'education') {
+    //   this.selectedCategory = 'Education & Training';
+    // }
     // else if (categoryId === 'information-technology') {
     //   this.selectedCategory = 'Software & IT';
     // }
-    else if (categoryId === 'construction') {
+    if (categoryId === 'construction') {
       this.selectedCategory = 'Engineering';
     }
     else if (categoryId === 'legal-studies') {
@@ -134,13 +134,13 @@ export class NicheAndPrivacyPoliciesComponent {
 
   onCategoryChange() {
 
-    if (this.selectedCategory === 'Education & Training') {
-      this.categoryId = 'education';
-    }
+    // if (this.selectedCategory === 'Education & Training') {
+    //   this.categoryId = 'education';
+    // }
     // else if (this.selectedCategory === 'Software & IT') {
     //   this.categoryId = 'information-technology';
     // }
-    else if (this.selectedCategory === 'Engineering') {
+    if (this.selectedCategory === 'Engineering') {
       this.categoryId = 'construction';
     }
     else if (this.selectedCategory === 'Juridical Sciences (Law)') {

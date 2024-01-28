@@ -29,13 +29,13 @@ export class PrescreeningComponent {
   categorySelected(categoryId: string) {
     this.categoryId = categoryId;
 
-    if (categoryId === 'education') {
-      this.selectedCategory = 'Education & Training';
-    }
+    // if (categoryId === 'education') {
+    //   this.selectedCategory = 'Education & Training';
+    // }
     // else if (categoryId === 'information-technology') {
     //   this.selectedCategory = 'Software & IT';
     // }
-    else if (categoryId === 'construction') {
+    if (categoryId === 'construction') {
       this.selectedCategory = 'Engineering';
     }
     else if (categoryId === 'legal-studies') {
@@ -63,13 +63,13 @@ export class PrescreeningComponent {
 
   onCategoryChange() {
 
-    if (this.selectedCategory === 'Education & Training') {
-      this.categoryId = 'education';
-    }
+    // if (this.selectedCategory === 'Education & Training') {
+    //   this.categoryId = 'education';
+    // }
     // else if (this.selectedCategory === 'Software & IT') {
     //   this.categoryId = 'information-technology';
     // }
-    else if (this.selectedCategory === 'Engineering') {
+    if (this.selectedCategory === 'Engineering') {
       this.categoryId = 'construction';
     }
     else if (this.selectedCategory === 'Juridical Sciences (Law)') {
@@ -100,11 +100,16 @@ export class PrescreeningComponent {
     // // Check if the IP Address exists, 
     // // if it does, we redirect to not-eligible.
     const modifiedIpAddress = this.removeLastSubnet(this.ipAddress);
-    console.log(modifiedIpAddress);
     const ipExists = await this.checkIfIpExists(modifiedIpAddress);
-    console.log(ipExists);
 
     if (ipExists) {
+      return;
+    }
+
+    // Check if we have space in the category, if not, we redirect to category full.
+    const isCategoryFull = await this.checkIfFull();
+
+    if (isCategoryFull) {
       return;
     }
 
@@ -211,8 +216,29 @@ export class PrescreeningComponent {
         // Handle invalid IP address format
         throw new Error('Invalid IP address format');
     }
+  }
 
-}
+  checkIfFull(): Promise<boolean> {
+    return new Promise((resolve, reject) => {
+      this.sheetsService.getCategory(this.categoryId).subscribe((response: any) => {
+        if (response.count >= 10)  {
+          // console.log('Category full: ', response.count);
+          this.router.navigate(['/category-full']);
+          resolve(true);
+        } else {
+          // console.log('Category not full: ', response.count);
+
+          // Save the category in local storage
+          localStorage.setItem('category', this.categoryId);
+
+          resolve(false);
+        }
+
+      }, error => {
+        reject(error);
+      });
+    });
+  }
 
 
 }

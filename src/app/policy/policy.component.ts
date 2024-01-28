@@ -131,7 +131,7 @@ export class PolicyComponent implements OnInit, OnDestroy {
       this.policyData = data[2];
     }
 
-    console.log(this.policyData);
+    // console.log(this.policyData);
 
   }
 

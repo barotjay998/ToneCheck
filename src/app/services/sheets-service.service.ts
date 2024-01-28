@@ -19,4 +19,13 @@ export class SheetsServiceService {
     return this.http.get(`/.netlify/functions/check-ip-exists?ipAddress=${ipAddress}`);
   }
 
+  getCategory(categoryId: string) {
+    return this.http.get(`/.netlify/functions/get-category?categoryId=${categoryId}`)
+  }
+
+  postCategory(category: any) {
+    const data = { categoryId: category };
+    return this.http.post(`/.netlify/functions/post-category`, data);
+  }
+
 }
